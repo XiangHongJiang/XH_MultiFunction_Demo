@@ -1,0 +1,7 @@
+platform:ios,8.0
+
+target 'XH_MultiFunction_Demo' do
+
+pod 'Masonry'
+
+end
