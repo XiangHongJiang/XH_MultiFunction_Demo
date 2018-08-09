@@ -13,15 +13,21 @@
 
 //cocoaPods
 #pragma mark - Cocoapods
-
+#import <YYKit.h>
+#import <Masonry.h>
 
 //categorys:分类
 #pragma mark - Categorys
+#import "UIColor+additions.h"
+#import "NSArray+add.h"
+
 
 //vc
 
 
 //other
+#import "AppManager.h"
+#import "XHTools.h"
 
 
 

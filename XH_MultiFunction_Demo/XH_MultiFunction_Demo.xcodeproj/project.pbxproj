@@ -18,6 +18,22 @@
 		FC893294211BDF5300647657 /* XH_MultiFunction_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC893293211BDF5300647657 /* XH_MultiFunction_DemoUITests.m */; };
 		FC8932B7211BE28F00647657 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FC8932AC211BE28F00647657 /* README.md */; };
 		FC8932B8211BE28F00647657 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FC8932B4211BE28F00647657 /* README.md */; };
+		FC8932C6211C063C00647657 /* AppBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932BD211C063C00647657 /* AppBaseNavigationController.m */; };
+		FC8932C7211C063C00647657 /* AppBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932BF211C063C00647657 /* AppBaseTabBarController.m */; };
+		FC8932C8211C063C00647657 /* AppBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932C1211C063C00647657 /* AppBaseViewController.m */; };
+		FC8932CA211C063C00647657 /* AppMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932C5211C063C00647657 /* AppMainViewController.m */; };
+		FC8932CD211C0C9200647657 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932CC211C0C9200647657 /* AppManager.m */; };
+		FC8932D1211C0CE900647657 /* XHAdInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932D0211C0CE900647657 /* XHAdInfoModel.m */; };
+		FC8932D4211C0D2100647657 /* AppUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932D3211C0D2100647657 /* AppUserInfoModel.m */; };
+		FC8932D8211C0EC800647657 /* UIColor+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932D7211C0EC800647657 /* UIColor+additions.m */; };
+		FC8932DB211C15C600647657 /* ZWIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932D9211C15C600647657 /* ZWIntroductionViewController.m */; };
+		FC8932DE211C170C00647657 /* XHAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932DD211C170C00647657 /* XHAdViewController.m */; };
+		FC8932E5211C2B7000647657 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932E4211C2B7000647657 /* LoginVC.m */; };
+		FC8932E9211C341500647657 /* XHTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932E7211C341500647657 /* XHTools.m */; };
+		FC8932ED211C410200647657 /* XHDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932EB211C410200647657 /* XHDrawer.m */; };
+		FC8932F0211C411900647657 /* XHShowTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932EE211C411900647657 /* XHShowTimePicker.m */; };
+		FC8932F3211C416900647657 /* YHResetFrameButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932F2211C416900647657 /* YHResetFrameButton.m */; };
+		FC8932F6211C434F00647657 /* NSArray+add.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932F5211C434F00647657 /* NSArray+add.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +80,38 @@
 		FC8932B2211BE28F00647657 /* App_Header_KeyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_Header_KeyMap.h; sourceTree = "<group>"; };
 		FC8932B3211BE28F00647657 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FC8932B4211BE28F00647657 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FC8932BC211C063C00647657 /* AppBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseNavigationController.h; sourceTree = "<group>"; };
+		FC8932BD211C063C00647657 /* AppBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBaseNavigationController.m; sourceTree = "<group>"; };
+		FC8932BE211C063C00647657 /* AppBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseTabBarController.h; sourceTree = "<group>"; };
+		FC8932BF211C063C00647657 /* AppBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBaseTabBarController.m; sourceTree = "<group>"; };
+		FC8932C0211C063C00647657 /* AppBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseViewController.h; sourceTree = "<group>"; };
+		FC8932C1211C063C00647657 /* AppBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBaseViewController.m; sourceTree = "<group>"; };
+		FC8932C4211C063C00647657 /* AppMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMainViewController.h; sourceTree = "<group>"; };
+		FC8932C5211C063C00647657 /* AppMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppMainViewController.m; sourceTree = "<group>"; };
+		FC8932CB211C0C9200647657 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		FC8932CC211C0C9200647657 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		FC8932CF211C0CE900647657 /* XHAdInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAdInfoModel.h; sourceTree = "<group>"; };
+		FC8932D0211C0CE900647657 /* XHAdInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAdInfoModel.m; sourceTree = "<group>"; };
+		FC8932D2211C0D2100647657 /* AppUserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppUserInfoModel.h; sourceTree = "<group>"; };
+		FC8932D3211C0D2100647657 /* AppUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppUserInfoModel.m; sourceTree = "<group>"; };
+		FC8932D6211C0EC800647657 /* UIColor+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+additions.h"; sourceTree = "<group>"; };
+		FC8932D7211C0EC800647657 /* UIColor+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+additions.m"; sourceTree = "<group>"; };
+		FC8932D9211C15C600647657 /* ZWIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWIntroductionViewController.m; sourceTree = "<group>"; };
+		FC8932DA211C15C600647657 /* ZWIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWIntroductionViewController.h; sourceTree = "<group>"; };
+		FC8932DC211C170C00647657 /* XHAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAdViewController.h; sourceTree = "<group>"; };
+		FC8932DD211C170C00647657 /* XHAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAdViewController.m; sourceTree = "<group>"; };
+		FC8932E3211C2B7000647657 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		FC8932E4211C2B7000647657 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		FC8932E7211C341500647657 /* XHTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTools.m; sourceTree = "<group>"; };
+		FC8932E8211C341500647657 /* XHTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTools.h; sourceTree = "<group>"; };
+		FC8932EB211C410200647657 /* XHDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHDrawer.m; sourceTree = "<group>"; };
+		FC8932EC211C410200647657 /* XHDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHDrawer.h; sourceTree = "<group>"; };
+		FC8932EE211C411900647657 /* XHShowTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHShowTimePicker.m; sourceTree = "<group>"; };
+		FC8932EF211C411900647657 /* XHShowTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHShowTimePicker.h; sourceTree = "<group>"; };
+		FC8932F1211C416900647657 /* YHResetFrameButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHResetFrameButton.h; sourceTree = "<group>"; };
+		FC8932F2211C416900647657 /* YHResetFrameButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHResetFrameButton.m; sourceTree = "<group>"; };
+		FC8932F4211C434F00647657 /* NSArray+add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+add.h"; sourceTree = "<group>"; };
+		FC8932F5211C434F00647657 /* NSArray+add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+add.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +235,7 @@
 		FC8932A5211BE28F00647657 /* Classes（主项目类） */ = {
 			isa = PBXGroup;
 			children = (
+				FC8932BA211C063C00647657 /* Main（主框架） */,
 				FC8932A6211BE28F00647657 /* Home（首页） */,
 			);
 			path = "Classes（主项目类）";
@@ -232,8 +281,127 @@
 		FC8932B5211BE28F00647657 /* XHTools */ = {
 			isa = PBXGroup;
 			children = (
+				FC8932EA211C40A000647657 /* XHView */,
+				FC8932E6211C33F600647657 /* NSObject */,
+				FC8932D5211C0EAC00647657 /* Category */,
+				FC8932B9211C040C00647657 /* Manager */,
 			);
 			path = XHTools;
+			sourceTree = "<group>";
+		};
+		FC8932B9211C040C00647657 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FC8932CB211C0C9200647657 /* AppManager.h */,
+				FC8932CC211C0C9200647657 /* AppManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FC8932BA211C063C00647657 /* Main（主框架） */ = {
+			isa = PBXGroup;
+			children = (
+				FC8932E2211C2A7300647657 /* Login */,
+				FC8932E1211C1FE500647657 /* Guide */,
+				FC8932E0211C1FDE00647657 /* Ad */,
+				FC8932DF211C1FD600647657 /* Base */,
+				FC8932CE211C0CAD00647657 /* Models */,
+				FC8932BB211C063C00647657 /* Controllers */,
+			);
+			path = "Main（主框架）";
+			sourceTree = "<group>";
+		};
+		FC8932BB211C063C00647657 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC8932C4211C063C00647657 /* AppMainViewController.h */,
+				FC8932C5211C063C00647657 /* AppMainViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FC8932CE211C0CAD00647657 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC8932CF211C0CE900647657 /* XHAdInfoModel.h */,
+				FC8932D0211C0CE900647657 /* XHAdInfoModel.m */,
+				FC8932D2211C0D2100647657 /* AppUserInfoModel.h */,
+				FC8932D3211C0D2100647657 /* AppUserInfoModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC8932D5211C0EAC00647657 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FC8932D6211C0EC800647657 /* UIColor+additions.h */,
+				FC8932D7211C0EC800647657 /* UIColor+additions.m */,
+				FC8932F4211C434F00647657 /* NSArray+add.h */,
+				FC8932F5211C434F00647657 /* NSArray+add.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FC8932DF211C1FD600647657 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FC8932BC211C063C00647657 /* AppBaseNavigationController.h */,
+				FC8932BD211C063C00647657 /* AppBaseNavigationController.m */,
+				FC8932BE211C063C00647657 /* AppBaseTabBarController.h */,
+				FC8932BF211C063C00647657 /* AppBaseTabBarController.m */,
+				FC8932C0211C063C00647657 /* AppBaseViewController.h */,
+				FC8932C1211C063C00647657 /* AppBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FC8932E0211C1FDE00647657 /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				FC8932DC211C170C00647657 /* XHAdViewController.h */,
+				FC8932DD211C170C00647657 /* XHAdViewController.m */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		FC8932E1211C1FE500647657 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				FC8932DA211C15C600647657 /* ZWIntroductionViewController.h */,
+				FC8932D9211C15C600647657 /* ZWIntroductionViewController.m */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		FC8932E2211C2A7300647657 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FC8932E3211C2B7000647657 /* LoginVC.h */,
+				FC8932E4211C2B7000647657 /* LoginVC.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FC8932E6211C33F600647657 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				FC8932E8211C341500647657 /* XHTools.h */,
+				FC8932E7211C341500647657 /* XHTools.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		FC8932EA211C40A000647657 /* XHView */ = {
+			isa = PBXGroup;
+			children = (
+				FC8932F1211C416900647657 /* YHResetFrameButton.h */,
+				FC8932F2211C416900647657 /* YHResetFrameButton.m */,
+				FC8932EF211C411900647657 /* XHShowTimePicker.h */,
+				FC8932EE211C411900647657 /* XHShowTimePicker.m */,
+				FC8932EC211C410200647657 /* XHDrawer.h */,
+				FC8932EB211C410200647657 /* XHDrawer.m */,
+			);
+			path = XHView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,9 +593,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8932C6211C063C00647657 /* AppBaseNavigationController.m in Sources */,
+				FC8932F6211C434F00647657 /* NSArray+add.m in Sources */,
+				FC8932DE211C170C00647657 /* XHAdViewController.m in Sources */,
+				FC8932D1211C0CE900647657 /* XHAdInfoModel.m in Sources */,
+				FC8932D8211C0EC800647657 /* UIColor+additions.m in Sources */,
+				FC8932DB211C15C600647657 /* ZWIntroductionViewController.m in Sources */,
 				FC893274211BDF5300647657 /* ViewController.m in Sources */,
 				FC89327F211BDF5300647657 /* main.m in Sources */,
+				FC8932E9211C341500647657 /* XHTools.m in Sources */,
+				FC8932CD211C0C9200647657 /* AppManager.m in Sources */,
+				FC8932C8211C063C00647657 /* AppBaseViewController.m in Sources */,
+				FC8932ED211C410200647657 /* XHDrawer.m in Sources */,
+				FC8932D4211C0D2100647657 /* AppUserInfoModel.m in Sources */,
+				FC8932F0211C411900647657 /* XHShowTimePicker.m in Sources */,
 				FC893271211BDF5300647657 /* AppDelegate.m in Sources */,
+				FC8932C7211C063C00647657 /* AppBaseTabBarController.m in Sources */,
+				FC8932E5211C2B7000647657 /* LoginVC.m in Sources */,
+				FC8932F3211C416900647657 /* YHResetFrameButton.m in Sources */,
+				FC8932CA211C063C00647657 /* AppMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +776,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XH_MultiFunction_Demo/Project/Utils（通用类）/Prefix/PrefixHeader.pch";
 				INFOPLIST_FILE = XH_MultiFunction_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -607,6 +792,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XH_MultiFunction_Demo/Project/Utils（通用类）/Prefix/PrefixHeader.pch";
 				INFOPLIST_FILE = XH_MultiFunction_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
