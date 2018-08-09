@@ -34,6 +34,8 @@
 		FC8932F0211C411900647657 /* XHShowTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932EE211C411900647657 /* XHShowTimePicker.m */; };
 		FC8932F3211C416900647657 /* YHResetFrameButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932F2211C416900647657 /* YHResetFrameButton.m */; };
 		FC8932F6211C434F00647657 /* NSArray+add.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932F5211C434F00647657 /* NSArray+add.m */; };
+		FC8932F9211C479100647657 /* TouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932F8211C479100647657 /* TouchID.m */; };
+		FC8932FC211C47D900647657 /* UIView+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932FB211C47D900647657 /* UIView+Activity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +114,10 @@
 		FC8932F2211C416900647657 /* YHResetFrameButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHResetFrameButton.m; sourceTree = "<group>"; };
 		FC8932F4211C434F00647657 /* NSArray+add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+add.h"; sourceTree = "<group>"; };
 		FC8932F5211C434F00647657 /* NSArray+add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+add.m"; sourceTree = "<group>"; };
+		FC8932F7211C479000647657 /* TouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchID.h; sourceTree = "<group>"; };
+		FC8932F8211C479100647657 /* TouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchID.m; sourceTree = "<group>"; };
+		FC8932FA211C47D900647657 /* UIView+Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Activity.h"; sourceTree = "<group>"; };
+		FC8932FB211C47D900647657 /* UIView+Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Activity.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +298,8 @@
 		FC8932B9211C040C00647657 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				FC8932F7211C479000647657 /* TouchID.h */,
+				FC8932F8211C479100647657 /* TouchID.m */,
 				FC8932CB211C0C9200647657 /* AppManager.h */,
 				FC8932CC211C0C9200647657 /* AppManager.m */,
 			);
@@ -334,6 +342,8 @@
 		FC8932D5211C0EAC00647657 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FC8932FA211C47D900647657 /* UIView+Activity.h */,
+				FC8932FB211C47D900647657 /* UIView+Activity.m */,
 				FC8932D6211C0EC800647657 /* UIColor+additions.h */,
 				FC8932D7211C0EC800647657 /* UIColor+additions.m */,
 				FC8932F4211C434F00647657 /* NSArray+add.h */,
@@ -597,6 +607,7 @@
 				FC8932F6211C434F00647657 /* NSArray+add.m in Sources */,
 				FC8932DE211C170C00647657 /* XHAdViewController.m in Sources */,
 				FC8932D1211C0CE900647657 /* XHAdInfoModel.m in Sources */,
+				FC8932F9211C479100647657 /* TouchID.m in Sources */,
 				FC8932D8211C0EC800647657 /* UIColor+additions.m in Sources */,
 				FC8932DB211C15C600647657 /* ZWIntroductionViewController.m in Sources */,
 				FC893274211BDF5300647657 /* ViewController.m in Sources */,
@@ -606,6 +617,7 @@
 				FC8932C8211C063C00647657 /* AppBaseViewController.m in Sources */,
 				FC8932ED211C410200647657 /* XHDrawer.m in Sources */,
 				FC8932D4211C0D2100647657 /* AppUserInfoModel.m in Sources */,
+				FC8932FC211C47D900647657 /* UIView+Activity.m in Sources */,
 				FC8932F0211C411900647657 /* XHShowTimePicker.m in Sources */,
 				FC893271211BDF5300647657 /* AppDelegate.m in Sources */,
 				FC8932C7211C063C00647657 /* AppBaseTabBarController.m in Sources */,

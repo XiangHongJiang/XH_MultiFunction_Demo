@@ -20,6 +20,7 @@
 #pragma mark - Categorys
 #import "UIColor+additions.h"
 #import "NSArray+add.h"
+#import "UIView+Activity.h"
 
 
 //vc

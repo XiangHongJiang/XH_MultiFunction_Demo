@@ -17,7 +17,6 @@
 @property (nonatomic, strong) UIView *topView;
 @property (strong, nonatomic) DateTimeSelectWithType selectBlockWithType;
 
-
 @end
 
 @implementation XHShowTimePicker
