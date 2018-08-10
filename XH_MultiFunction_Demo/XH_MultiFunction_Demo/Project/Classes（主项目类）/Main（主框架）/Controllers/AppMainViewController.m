@@ -34,7 +34,8 @@
     [self configSubViews];
     
     //初始化配置和广告：在初始化结束后将显示TabBarVC
-    [self preloadAdAndConfig];
+//    [self preloadAdAndConfig];
+    
 
 }
 - (void)didReceiveMemoryWarning {

@@ -31,7 +31,7 @@ static AppManager *shareManager = nil;
     //登录信息
     NSDictionary *dict =  [[NSUserDefaults standardUserDefaults] objectForKey:userLoginInfoKey];
     self.userLoginInfo = [AppUserInfoModel modelWithJSON:dict];
-    
+
     //广告信息
     NSDictionary *adDict =  [[NSUserDefaults standardUserDefaults] objectForKey:AppAdInfoKey];
     self.adInfo = [XHAdInfoModel modelWithJSON:adDict];

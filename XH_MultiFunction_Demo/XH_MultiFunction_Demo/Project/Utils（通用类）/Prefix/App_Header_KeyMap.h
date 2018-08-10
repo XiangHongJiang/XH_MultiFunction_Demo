@@ -20,6 +20,4 @@ UIKIT_EXTERN NSString *const kVCType;// controller 类型，是Xib，还是Class
 UIKIT_EXTERN NSString *const kStoryBoardName;
 UIKIT_EXTERN NSString *const kXibName;
 
-
-
 #endif /* App_Header_KeyMap_h */

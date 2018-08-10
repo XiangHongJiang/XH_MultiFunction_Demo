@@ -19,8 +19,7 @@ static  NSString *const AppAdInfoKey = @"appAdInfoKey";
 @interface AppManager : NSObject
 @property (nonatomic, strong) AppUserInfoModel *userLoginInfo;//用户登录信息
 @property (nonatomic, strong) XHAdInfoModel *adInfo;//广告信息
-/** 记录点击了广告*/
-@property (nonatomic, assign) BOOL tapAd;
+@property (nonatomic, assign) BOOL tapAd;/** 记录点击了广告*/
 @property (nonatomic, copy) NSString *version;//版本信息1.0
 @property (nonatomic, assign) BOOL firstLaunch;//首次启动
 @property (nonatomic, assign) BOOL needUpdateVersion;//需要检测更新

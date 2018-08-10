@@ -43,12 +43,23 @@
 
         [sender removeActivityIndicatorWithTitle:@"账户密码登录"];
 
+        [weakSelf loginSucceed];
+        
         if (weakSelf.loginSucceedBlock) {
             weakSelf.loginSucceedBlock();
         }
 
     });
     
+}
+- (void)loginSucceed {
+    
+    if (![AppManager instance].userLoginInfo) {
+        [AppManager instance].userLoginInfo = [AppUserInfoModel new];
+    }
+    [AppManager instance].userLoginInfo.USERID = @"123";
+    [[AppManager instance] saveUserLoginInfo];
+
 }
 - (void)loginWithTouchId:(UIButton *)sender {
     
@@ -59,6 +70,7 @@
 
         if (state == TBTouchIDStateSuccess) {
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [weakSelf loginSucceed];
 
                 if (weakSelf.loginSucceedBlock) {
                     weakSelf.loginSucceedBlock();

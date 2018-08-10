@@ -4,5 +4,7 @@ target 'XH_MultiFunction_Demo' do
 
 pod 'Masonry'
 pod 'YYKit'
+pod 'DZNEmptyDataSet'
+pod 'MJRefresh'
 
 end

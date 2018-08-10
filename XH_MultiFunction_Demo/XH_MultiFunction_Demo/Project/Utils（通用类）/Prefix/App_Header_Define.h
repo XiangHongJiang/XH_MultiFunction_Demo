@@ -9,6 +9,7 @@
 #ifndef App_Header_Define_h
 #define App_Header_Define_h
 
+//NSUserDefaults
 #define  UD [NSUserDefaults standardUserDefaults]
 #define  UD_SET(_Value,_Key)   [UD setObject:_Value forKey:_Key]
 #define  UD_GET(_Key)  [UD objectForKey:_Key]
