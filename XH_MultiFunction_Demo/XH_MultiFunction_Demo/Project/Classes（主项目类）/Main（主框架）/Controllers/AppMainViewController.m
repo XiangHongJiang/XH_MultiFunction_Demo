@@ -30,12 +30,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+
     //初始化Tabbar
     [self configSubViews];
     
     //初始化配置和广告：在初始化结束后将显示TabBarVC
 //    [self preloadAdAndConfig];
     
+    [self showHome];
 
 }
 - (void)didReceiveMemoryWarning {
@@ -46,8 +49,8 @@
 - (void)configSubViews {//
     
     //添加控制器
-    [self.tabBarController addChildViewControllerWithInfoArray:@[@{kClassName:@"AppTestViewController",kTabbarTitle:@"测试",kTabbarImage:@"",kTabbarSelectImage:@""},
-                                                                 @{kClassName:@"AppHomeViewController",kTabbarTitle:@"首页",kTabbarImage:@"",kTabbarSelectImage:@""},
+    [self.tabBarController addChildViewControllerWithInfoArray:@[@{kClassName:@"HomeFunctionListVC",kTabbarTitle:@"首页",kTabbarImage:@"",kTabbarSelectImage:@""},
+                                                                 @{kClassName:@"",kTabbarTitle:@"测试",kTabbarImage:@"",kTabbarSelectImage:@""},
                                                                  @{},
                                                                  @{}]];
 
@@ -55,7 +58,7 @@
 /** 初始化服务器配置和广告：在初始化结束后将显示TabBarVC*/
 - (void)preloadAdAndConfig {
     
-    self.view.backgroundColor = [UIColor redColor];
+//    self.view.backgroundColor = [UIColor redColor];
     self.view.alpha = 0;
 
     [UIView animateWithDuration:0 animations:^{

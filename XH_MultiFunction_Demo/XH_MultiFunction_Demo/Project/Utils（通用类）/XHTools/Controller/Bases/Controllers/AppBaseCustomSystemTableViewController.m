@@ -20,13 +20,13 @@
 @implementation AppBaseCustomSystemTableViewController
 #pragma mark - Lazy Load： 懒加载
 /** 基本VC数据管理模型类*/
-- (AppBaseTableViewDataModel *)dataModel {
+- (AppBaseTableViewDataModel *)viewModel {
     
-    if (_dataModel == nil) {
-        _dataModel = [[AppBaseTableViewDataModel alloc] init];
+    if (_viewModel == nil) {
+        _viewModel = [[AppBaseTableViewDataModel alloc] init];
 
     }
-    return _dataModel;
+    return _viewModel;
 }
 //解析上一级传进来的参数，子类有需要重写实现即可
 - (void)updateParams {
@@ -83,13 +83,13 @@
 #pragma mark - TableView DataSource：代理
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     
-    NSInteger count = self.dataModel.allDataDic.count;
+    NSInteger count = self.viewModel.allDataDic.count;
     
     return count;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    NSArray *arr = [self.dataModel.allDataDic objectForKey:@(section)];
+    NSArray *arr = [self.viewModel.allDataDic objectForKey:@(section)];
     
     if ([arr isKindOfClass:[NSArray class]]) {
         return [arr count];
@@ -113,7 +113,7 @@
     cell.tag = indexPath.section*10000 + indexPath.row;
     cell.indexPath = indexPath;
     cell.delegate = self;
-    NSArray *sectionData = [self.dataModel.allDataDic objectForKey:@(indexPath.section)];
+    NSArray *sectionData = [self.viewModel.allDataDic objectForKey:@(indexPath.section)];
     
     /** 赋值Cell*/
     if ([sectionData isKindOfClass:[NSArray class]]&&sectionData.count>indexPath.row) {

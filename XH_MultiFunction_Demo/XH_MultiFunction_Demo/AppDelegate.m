@@ -108,8 +108,8 @@
 - (ZWIntroductionViewController *)addGuideView
 {
     // Added Introduction View Controller
-    NSArray *backgroundImageNames = @[@"",@""];
-    NSArray *coverImageNames = @[@"",@""];
+    NSArray *backgroundImageNames = @[@"LaunchGuideImage_0"];
+    NSArray *coverImageNames = @[@""];
     
     ZWIntroductionViewController *introductionVC = [[ZWIntroductionViewController alloc] initWithCoverImageNames:coverImageNames backgroundImageNames:backgroundImageNames];
     

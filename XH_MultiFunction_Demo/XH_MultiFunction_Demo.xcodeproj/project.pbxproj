@@ -21,6 +21,9 @@
 		FC384967211D25000063F13F /* UISearchBar+JCSearchBarPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384963211D25000063F13F /* UISearchBar+JCSearchBarPlaceholder.m */; };
 		FC38496C211D2D820063F13F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FC38496A211D2D820063F13F /* Reachability.m */; };
 		FC38496D211D2D820063F13F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FC38496B211D2D820063F13F /* README.md */; };
+		FC384970211D6FBA0063F13F /* UIScrollView+Offset.m in Sources */ = {isa = PBXBuildFile; fileRef = FC38496E211D6FB90063F13F /* UIScrollView+Offset.m */; };
+		FC384973211D716D0063F13F /* HomeFunctionListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384972211D716D0063F13F /* HomeFunctionListVC.m */; };
+		FC384975211D821F0063F13F /* LaunchGuideImage_0.png in Resources */ = {isa = PBXBuildFile; fileRef = FC384974211D821E0063F13F /* LaunchGuideImage_0.png */; };
 		FC893271211BDF5300647657 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC893270211BDF5200647657 /* AppDelegate.m */; };
 		FC893274211BDF5300647657 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC893273211BDF5300647657 /* ViewController.m */; };
 		FC893277211BDF5300647657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC893275211BDF5300647657 /* Main.storyboard */; };
@@ -96,6 +99,11 @@
 		FC384969211D2D820063F13F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		FC38496A211D2D820063F13F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		FC38496B211D2D820063F13F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FC38496E211D6FB90063F13F /* UIScrollView+Offset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Offset.m"; sourceTree = "<group>"; };
+		FC38496F211D6FBA0063F13F /* UIScrollView+Offset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Offset.h"; sourceTree = "<group>"; };
+		FC384971211D716D0063F13F /* HomeFunctionListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFunctionListVC.h; sourceTree = "<group>"; };
+		FC384972211D716D0063F13F /* HomeFunctionListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFunctionListVC.m; sourceTree = "<group>"; };
+		FC384974211D821E0063F13F /* LaunchGuideImage_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchGuideImage_0.png; sourceTree = "<group>"; };
 		FC89326C211BDF5200647657 /* XH_MultiFunction_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XH_MultiFunction_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC89326F211BDF5200647657 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC893270211BDF5200647657 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -211,6 +219,8 @@
 		FC38493B211D233C0063F13F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FC384971211D716D0063F13F /* HomeFunctionListVC.h */,
+				FC384972211D716D0063F13F /* HomeFunctionListVC.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -396,6 +406,7 @@
 		FC8932AB211BE28F00647657 /* Resources（资源文件） */ = {
 			isa = PBXGroup;
 			children = (
+				FC384974211D821E0063F13F /* LaunchGuideImage_0.png */,
 				FC8932AC211BE28F00647657 /* README.md */,
 			);
 			path = "Resources（资源文件）";
@@ -482,6 +493,8 @@
 		FC8932D5211C0EAC00647657 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FC38496F211D6FBA0063F13F /* UIScrollView+Offset.h */,
+				FC38496E211D6FB90063F13F /* UIScrollView+Offset.m */,
 				FC38495D211D25000063F13F /* NSObject+Extension.h */,
 				FC38495C211D24FF0063F13F /* NSObject+Extension.m */,
 				FC38495F211D25000063F13F /* UIGestureRecognizer+BlocksKit.h */,
@@ -674,6 +687,7 @@
 				FC89327C211BDF5300647657 /* LaunchScreen.storyboard in Resources */,
 				FC893279211BDF5300647657 /* Assets.xcassets in Resources */,
 				FC8932B7211BE28F00647657 /* README.md in Resources */,
+				FC384975211D821F0063F13F /* LaunchGuideImage_0.png in Resources */,
 				FC893277211BDF5300647657 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -763,6 +777,7 @@
 				FC384958211D240C0063F13F /* UITableView+Custom.m in Sources */,
 				FC8932D8211C0EC800647657 /* UIColor+additions.m in Sources */,
 				FC8932DB211C15C600647657 /* ZWIntroductionViewController.m in Sources */,
+				FC384970211D6FBA0063F13F /* UIScrollView+Offset.m in Sources */,
 				FC893274211BDF5300647657 /* ViewController.m in Sources */,
 				FC89327F211BDF5300647657 /* main.m in Sources */,
 				FC8932E9211C341500647657 /* XHTools.m in Sources */,
@@ -779,6 +794,7 @@
 				FC893271211BDF5300647657 /* AppDelegate.m in Sources */,
 				FC38496C211D2D820063F13F /* Reachability.m in Sources */,
 				FC8932C7211C063C00647657 /* AppBaseTabBarController.m in Sources */,
+				FC384973211D716D0063F13F /* HomeFunctionListVC.m in Sources */,
 				FC384957211D240C0063F13F /* AppBaseTableView.m in Sources */,
 				FC384966211D25000063F13F /* UINavigationController+RoutePush.m in Sources */,
 				FC384952211D240C0063F13F /* AppBaseTableViewCell.m in Sources */,

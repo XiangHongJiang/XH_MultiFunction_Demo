@@ -22,10 +22,15 @@
 - (void)configSubViews {
     
      UIButton *passwordLogin = [XHTools xh_getUIButtonWithFrame:CGRectMake(kScreenWidth *0.5- 50, NAVIGATION_BAR_HEIGHT + 15, 100, 40) withTitle:@"账户密码登录" withFont:15 withTarge:self withSel:@selector(loginWithPassword:)];
+    passwordLogin.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:passwordLogin];
     
     UIButton *touchIdLogin = [XHTools xh_getUIButtonWithFrame:CGRectMake(kScreenWidth *0.5 - 50, NAVIGATION_BAR_HEIGHT + 15 + 100 + 15, 100, 40) withTitle:@"TouchID登录" withFont:15 withTarge:self withSel:@selector(loginWithTouchId:)];
     [self.view addSubview:touchIdLogin];
+    touchIdLogin.backgroundColor = [UIColor cyanColor];
+    
+    XHBorderRadius(touchIdLogin, 5, 0, [UIColor whiteColor]);
+    XHBorderRadius(passwordLogin, 5, 0, [UIColor whiteColor]);
 
 }
 

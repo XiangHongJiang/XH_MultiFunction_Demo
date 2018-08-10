@@ -77,13 +77,13 @@
 #pragma mark - TableView DataSource：代理
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     
-    NSInteger count = self.dataModel.allDataDic.count;
+    NSInteger count = self.viewModel.allDataDic.count;
     
     return count;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    NSArray *arr = [self.dataModel.allDataDic objectForKey:@(section)];
+    NSArray *arr = [self.viewModel.allDataDic objectForKey:@(section)];
     
     if ([arr isKindOfClass:[NSArray class]]) {
         return [arr count];
@@ -107,7 +107,7 @@
     cell.tag = indexPath.section*10000 + indexPath.row;
     cell.indexPath = indexPath;
     cell.delegate = self;
-    NSArray *sectionData = [self.dataModel.allDataDic objectForKey:@(indexPath.section)];
+    NSArray *sectionData = [self.viewModel.allDataDic objectForKey:@(indexPath.section)];
     
     /** 赋值Cell*/
     if ([sectionData isKindOfClass:[NSArray class]]&&sectionData.count>indexPath.row) {

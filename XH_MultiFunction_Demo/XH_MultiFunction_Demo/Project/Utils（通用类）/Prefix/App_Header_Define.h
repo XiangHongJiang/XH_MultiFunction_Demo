@@ -21,8 +21,7 @@
 [View.layer setCornerRadius:(Radius)];\
 [View.layer setMasksToBounds:YES];\
 [View.layer setBorderWidth:(Width)];\
-[View.layer setBorderColor:[Color CGColor]]
-
+[View.layer setBorderColor:Color.CGColor]
 //比例宽
 #define RATEWIDTH_iPhone6(WIDTH) (WIDTH/375.0) * [[UIScreen mainScreen] bounds].size.width
 //比例高

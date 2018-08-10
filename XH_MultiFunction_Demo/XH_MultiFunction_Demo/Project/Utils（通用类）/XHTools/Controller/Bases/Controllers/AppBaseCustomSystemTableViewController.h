@@ -21,7 +21,7 @@ typedef void(^loadMore)(void);
 /** 上一级过来传的参数：用于新界面的使用*/
 @property (nonatomic, copy) NSDictionary *params;
 /** ViewModel*/
-@property (nonatomic,strong) AppBaseTableViewDataModel *dataModel;
+@property (nonatomic,strong) AppBaseTableViewDataModel *viewModel;
 /** 请求数据*/
 - (void)transData;
 /** 更新参数*/
