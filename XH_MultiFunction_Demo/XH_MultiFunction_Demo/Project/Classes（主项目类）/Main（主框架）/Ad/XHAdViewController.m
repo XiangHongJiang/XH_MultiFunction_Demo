@@ -58,7 +58,7 @@
     
     //添加广告ImageView
     [self.view addSubview:self.splashView];
-    [self.splashView setImageWithURL:[NSURL URLWithString:@""] placeholder:[UIImage imageNamed:@"launchDefault"]];
+    [self.splashView setImageWithURL:[NSURL URLWithString:@""] placeholder:[UIImage imageNamed:@"LaunchGuideImage_0"]];
 
     //添加跳过按钮
     UIButton *skipBtn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -125,7 +125,7 @@
         self.skipBtn.hidden = NO;
         NSString *strStartPicUrl = [AppManager instance].adInfo.BigThumb;
         //加载图片
-        [self.splashView setImageWithURL:[NSURL URLWithString:strStartPicUrl] placeholder:[UIImage imageNamed:@"launchDefault"]];
+        [self.splashView setImageWithURL:[NSURL URLWithString:strStartPicUrl] placeholder:[UIImage imageNamed:@"LaunchGuideImage_0"]];
         //开始倒计时
         [self startTimer];
         

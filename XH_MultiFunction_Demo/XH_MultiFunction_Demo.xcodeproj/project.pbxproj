@@ -52,6 +52,8 @@
 		FC8932F9211C479100647657 /* TouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932F8211C479100647657 /* TouchID.m */; };
 		FC8932FC211C47D900647657 /* UIView+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932FB211C47D900647657 /* UIView+Activity.m */; };
 		FCF9903D212277EE007CDEA5 /* MBProgressHUD+XHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9903C212277EE007CDEA5 /* MBProgressHUD+XHAdd.m */; };
+		FCF9904221229DEB007CDEA5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9903F21229DEA007CDEA5 /* UIView+Extension.m */; };
+		FCF9904321229DEB007CDEA5 /* UIView+BorderLine.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9904121229DEA007CDEA5 /* UIView+BorderLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +166,10 @@
 		FC8932FB211C47D900647657 /* UIView+Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Activity.m"; sourceTree = "<group>"; };
 		FCF9903B212277EE007CDEA5 /* MBProgressHUD+XHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XHAdd.h"; sourceTree = "<group>"; };
 		FCF9903C212277EE007CDEA5 /* MBProgressHUD+XHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XHAdd.m"; sourceTree = "<group>"; };
+		FCF9903E21229DEA007CDEA5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		FCF9903F21229DEA007CDEA5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		FCF9904021229DEA007CDEA5 /* UIView+BorderLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BorderLine.h"; sourceTree = "<group>"; };
+		FCF9904121229DEA007CDEA5 /* UIView+BorderLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BorderLine.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -496,6 +502,10 @@
 		FC8932D5211C0EAC00647657 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FCF9904021229DEA007CDEA5 /* UIView+BorderLine.h */,
+				FCF9904121229DEA007CDEA5 /* UIView+BorderLine.m */,
+				FCF9903E21229DEA007CDEA5 /* UIView+Extension.h */,
+				FCF9903F21229DEA007CDEA5 /* UIView+Extension.m */,
 				FC38496F211D6FBA0063F13F /* UIScrollView+Offset.h */,
 				FC38496E211D6FB90063F13F /* UIScrollView+Offset.m */,
 				FC38495D211D25000063F13F /* NSObject+Extension.h */,
@@ -789,7 +799,9 @@
 				FC384954211D240C0063F13F /* AppBaseTableViewController.m in Sources */,
 				FC384967211D25000063F13F /* UISearchBar+JCSearchBarPlaceholder.m in Sources */,
 				FC8932CD211C0C9200647657 /* AppManager.m in Sources */,
+				FCF9904321229DEB007CDEA5 /* UIView+BorderLine.m in Sources */,
 				FC384964211D25000063F13F /* NSObject+Extension.m in Sources */,
+				FCF9904221229DEB007CDEA5 /* UIView+Extension.m in Sources */,
 				FC38495B211D24880063F13F /* AppBaseTableViewDataModel.m in Sources */,
 				FC8932ED211C410200647657 /* XHDrawer.m in Sources */,
 				FC8932D4211C0D2100647657 /* AppUserInfoModel.m in Sources */,

@@ -29,6 +29,7 @@
 
 - (void)configData {
     
+    self.navigationItem.title = @"功能列表";
 
     [self.viewModel addDatasFromArray:@[@"退出登录",@"测试1",@"测试2"] atSection:0];
     
