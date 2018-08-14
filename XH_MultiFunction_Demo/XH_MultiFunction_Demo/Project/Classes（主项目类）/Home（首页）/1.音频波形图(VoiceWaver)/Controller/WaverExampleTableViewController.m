@@ -81,7 +81,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.title = @"波形图";
     self.dataArray = @[@"启用",@"暂停",@"取消",@"切换类型"];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
         

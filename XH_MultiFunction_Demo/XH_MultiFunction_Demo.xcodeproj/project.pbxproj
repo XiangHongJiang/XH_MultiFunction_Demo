@@ -59,6 +59,8 @@
 		FCF9905F2122B013007CDEA5 /* GridsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF990582122B013007CDEA5 /* GridsView.m */; };
 		FCF990602122B013007CDEA5 /* VolumeWaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9905A2122B013007CDEA5 /* VolumeWaverView.m */; };
 		FCF990612122B013007CDEA5 /* WaverExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9905D2122B013007CDEA5 /* WaverExampleTableViewController.m */; };
+		FCF990682122B723007CDEA5 /* GuideTipDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF990652122B723007CDEA5 /* GuideTipDemoTableViewController.m */; };
+		FCF9906B2122B78A007CDEA5 /* XHGuideTipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9906A2122B789007CDEA5 /* XHGuideTipManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +187,10 @@
 		FCF9905A2122B013007CDEA5 /* VolumeWaverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeWaverView.m; sourceTree = "<group>"; };
 		FCF9905C2122B013007CDEA5 /* WaverExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaverExampleTableViewController.h; sourceTree = "<group>"; };
 		FCF9905D2122B013007CDEA5 /* WaverExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaverExampleTableViewController.m; sourceTree = "<group>"; };
+		FCF990642122B723007CDEA5 /* GuideTipDemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideTipDemoTableViewController.h; sourceTree = "<group>"; };
+		FCF990652122B723007CDEA5 /* GuideTipDemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideTipDemoTableViewController.m; sourceTree = "<group>"; };
+		FCF990692122B789007CDEA5 /* XHGuideTipManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHGuideTipManager.h; sourceTree = "<group>"; };
+		FCF9906A2122B789007CDEA5 /* XHGuideTipManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHGuideTipManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -422,6 +428,7 @@
 		FC8932A6211BE28F00647657 /* Home（首页） */ = {
 			isa = PBXGroup;
 			children = (
+				FCF990622122B664007CDEA5 /* 2.操作引导（ControllerGuideTip_Demo） */,
 				FCF990522122AFF0007CDEA5 /* 1.音频波形图(VoiceWaver) */,
 				FCF990442122A5C9007CDEA5 /* 0.自定义表格绘制（CustomDrawTable_Demo） */,
 				FC38493A211D23240063F13F /* Index */,
@@ -677,6 +684,41 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		FCF990622122B664007CDEA5 /* 2.操作引导（ControllerGuideTip_Demo） */ = {
+			isa = PBXGroup;
+			children = (
+				FCF990632122B723007CDEA5 /* Controllers */,
+				FCF990662122B723007CDEA5 /* Models */,
+				FCF990672122B723007CDEA5 /* Views */,
+			);
+			path = "2.操作引导（ControllerGuideTip_Demo）";
+			sourceTree = "<group>";
+		};
+		FCF990632122B723007CDEA5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCF990642122B723007CDEA5 /* GuideTipDemoTableViewController.h */,
+				FCF990652122B723007CDEA5 /* GuideTipDemoTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FCF990662122B723007CDEA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCF990692122B789007CDEA5 /* XHGuideTipManager.h */,
+				FCF9906A2122B789007CDEA5 /* XHGuideTipManager.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FCF990672122B723007CDEA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -907,10 +949,12 @@
 				FCF9905E2122B013007CDEA5 /* RecordManager.m in Sources */,
 				FCF990612122B013007CDEA5 /* WaverExampleTableViewController.m in Sources */,
 				FC384966211D25000063F13F /* UINavigationController+RoutePush.m in Sources */,
+				FCF9906B2122B78A007CDEA5 /* XHGuideTipManager.m in Sources */,
 				FC384952211D240C0063F13F /* AppBaseTableViewCell.m in Sources */,
 				FC8932E5211C2B7000647657 /* LoginVC.m in Sources */,
 				FCF9903D212277EE007CDEA5 /* MBProgressHUD+XHAdd.m in Sources */,
 				FCF9904F2122A688007CDEA5 /* XHCarInwayDataDailyInfoModel.m in Sources */,
+				FCF990682122B723007CDEA5 /* GuideTipDemoTableViewController.m in Sources */,
 				FC8932F3211C416900647657 /* YHResetFrameButton.m in Sources */,
 				FC8932CA211C063C00647657 /* AppMainViewController.m in Sources */,
 			);
