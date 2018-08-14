@@ -12,7 +12,8 @@ typedef NS_ENUM(NSInteger,Function_Type){
     
     Function_Type_Login,//登录
     Function_Type_CustomDrawTable_Demo,//自定义表格绘制
-    
+    Function_Type_VoiceWaver_Demo,//音频波形图
+
 };
 
 @interface HomeFunctionListVC ()
@@ -36,8 +37,10 @@ typedef NS_ENUM(NSInteger,Function_Type){
 - (void)configData {
     
     NSArray *functionArray = @[
-                                   @{kTitle:@"退出登录",@"type":@(Function_Type_Login)},
-                                   @{kTitle:@"0.自定义表格绘制",@"type":@(Function_Type_CustomDrawTable_Demo)},
+                                   @{kTitle:@"--退出登录--",@"type":@(Function_Type_Login)},
+                                   @{kTitle:@"0.自定义表格绘制",@"vcName":@"CustomDrawExampleTableViewController",@"type":@(Function_Type_CustomDrawTable_Demo)},
+                                   @{kTitle:@"1.音频波形图",@"vcName":@"WaverExampleTableViewController",@"type":@(Function_Type_CustomDrawTable_Demo)},
+
 
                                    ];
     
@@ -52,15 +55,15 @@ typedef NS_ENUM(NSInteger,Function_Type){
     NSDictionary *functionDic = [[self.viewModel.allDataDic objectForKey:@(indexPath.section)] safeObjectAtIndex:indexPath.row];
     Function_Type type = [functionDic[@"type"] integerValue];//type
     NSString *title = functionDic[kTitle]?functionDic[kTitle]:@"";//name
-    
+    NSString *vcName = functionDic[@"vcName"];//vcName
     switch (type) {
         case Function_Type_Login:
             [self loginStateChangeWithOut:YES];
             break;
             
         case Function_Type_CustomDrawTable_Demo:
-            [self.navigationController routePushViewController:@"CustomDrawExampleTableViewController" withParams:@{kTitle:title} animated:YES];
-
+        case Function_Type_VoiceWaver_Demo:
+            [self.navigationController routePushViewController:vcName withParams:@{kTitle:title} animated:YES];
             break;
             
         default:
