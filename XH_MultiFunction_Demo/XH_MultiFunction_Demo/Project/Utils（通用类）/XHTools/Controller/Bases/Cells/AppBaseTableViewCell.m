@@ -48,6 +48,9 @@
     if ([data isKindOfClass:[NSString class]]) {
         
         self.textLabel.text = data;
+    }else if ([data isKindOfClass:[NSDictionary class]]){
+        
+        self.textLabel.text = data[kTitle];
     }
 }
 

@@ -31,11 +31,18 @@
     } else if (type == APPVCType_StoryBoard) {
         vc = [[UIStoryboard storyboardWithName:kStoryBoardName bundle:nil] instantiateViewControllerWithIdentifier:className];
     }
-//
-    vc.params = newParams;
+    
+    //配置
+    vc.navigationItem.title = newParams[kTitle];
+
     if ([vc isKindOfClass:[AppBaseViewController class]]) {
+        
+        vc.params = newParams;
         [vc updateParams];
+        
     }else if ([vc isKindOfClass:[AppBaseCustomSystemTableViewController class]]) {
+        
+        vc.params = newParams;
         [vc updateParams];
     }
 
@@ -43,8 +50,8 @@
     if (vc == nil) {
         NSLog(@"VC 为空。。。");
     }
-    NSLog(@"是否主线程===%d",[NSThread isMainThread]);
     
+    NSLog(@"是否主线程===%d",[NSThread isMainThread]);
     [self pushViewController:vc animated:YES];
 }
 

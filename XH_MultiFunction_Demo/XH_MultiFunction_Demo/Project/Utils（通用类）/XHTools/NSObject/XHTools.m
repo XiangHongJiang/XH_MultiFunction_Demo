@@ -24,6 +24,14 @@
     label.textAlignment = textAligment;
     return label;
 }
++ (UILabel *)getUILabelWithFrame:(CGRect)frame withTitle:(NSString *)title withFont:(CGFloat)fontSize withTextColor:(UIColor *)textColor {
+    UILabel *label = [[UILabel alloc] initWithFrame:frame];
+    label.numberOfLines = 0;
+    label.text = title;
+    label.font = [UIFont systemFontOfSize:fontSize];
+    label.textColor = textColor;
+    return label;
+}
 /** 普通Btn*/
 +(UIButton *)xh_getUIButtonWithFrame:(CGRect)rect withTitle:(NSString *)text withFont:(CGFloat)fontSize  withTarge:(id)target withSel:(SEL)sel{
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
