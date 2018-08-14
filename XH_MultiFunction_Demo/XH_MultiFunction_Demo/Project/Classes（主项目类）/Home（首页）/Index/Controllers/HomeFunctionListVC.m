@@ -10,10 +10,11 @@
 
 typedef NS_ENUM(NSInteger,Function_Type){
     
-    Function_Type_Login,//登录
+    Function_Type_Login,//TouchId登录
     Function_Type_CustomDrawTable_Demo,//自定义表格绘制
     Function_Type_VoiceWaver_Demo,//音频波形图
     Function_Type_GuideTip_Demo,//操作引导
+    Function_Type_Logs_CocoaLumberjack_Demo,//日志记录
 
 
 };
@@ -47,6 +48,8 @@ typedef NS_ENUM(NSInteger,Function_Type){
                                    @{kTitle:@"0.自定义表格绘制",@"vcName":@"CustomDrawExampleTableViewController",@"type":@(Function_Type_CustomDrawTable_Demo)},
                                    @{kTitle:@"1.音频波形图",@"vcName":@"WaverExampleTableViewController",@"type":@(Function_Type_CustomDrawTable_Demo)},
                                    @{kTitle:@"2.操作引导",@"vcName":@"GuideTipDemoTableViewController",@"type":@(Function_Type_GuideTip_Demo)},
+                                   @{kTitle:@"3.日志记录",@"vcName":@"LogsExampleTableViewController",@"type":@(Function_Type_Logs_CocoaLumberjack_Demo)},
+
 
 
                                    ];

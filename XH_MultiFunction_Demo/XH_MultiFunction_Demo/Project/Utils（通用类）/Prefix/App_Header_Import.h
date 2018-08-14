@@ -33,7 +33,7 @@
 //other
 #import "AppManager.h"
 #import "XHTools.h"
-
+#import "Logs_PchConfig.h"
 
 
 #endif /* App_Header_Import_h */

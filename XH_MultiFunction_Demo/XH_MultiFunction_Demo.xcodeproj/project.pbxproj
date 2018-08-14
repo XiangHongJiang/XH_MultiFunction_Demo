@@ -61,6 +61,15 @@
 		FCF990612122B013007CDEA5 /* WaverExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9905D2122B013007CDEA5 /* WaverExampleTableViewController.m */; };
 		FCF990682122B723007CDEA5 /* GuideTipDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF990652122B723007CDEA5 /* GuideTipDemoTableViewController.m */; };
 		FCF9906B2122B78A007CDEA5 /* XHGuideTipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9906A2122B789007CDEA5 /* XHGuideTipManager.m */; };
+		FCF990812122DD60007CDEA5 /* AppInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9906F2122DD60007CDEA5 /* AppInfoManager.m */; };
+		FCF990822122DD60007CDEA5 /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF990712122DD60007CDEA5 /* KeyChain.m */; };
+		FCF990832122DD60007CDEA5 /* LogsInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF990732122DD60007CDEA5 /* LogsInfoModel.m */; };
+		FCF990842122DD60007CDEA5 /* MyFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF990752122DD60007CDEA5 /* MyFileLogger.m */; };
+		FCF990852122DD60007CDEA5 /* MyFileLoggerManagerDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF990772122DD60007CDEA5 /* MyFileLoggerManagerDefault.m */; };
+		FCF990862122DD60007CDEA5 /* MyLog.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF990792122DD60007CDEA5 /* MyLog.m */; };
+		FCF990872122DD60007CDEA5 /* MyLogFromatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9907B2122DD60007CDEA5 /* MyLogFromatter.m */; };
+		FCF990882122DD60007CDEA5 /* XHLogsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9907D2122DD60007CDEA5 /* XHLogsManager.m */; };
+		FCF990892122DD60007CDEA5 /* LogsExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF990802122DD60007CDEA5 /* LogsExampleTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,6 +200,25 @@
 		FCF990652122B723007CDEA5 /* GuideTipDemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideTipDemoTableViewController.m; sourceTree = "<group>"; };
 		FCF990692122B789007CDEA5 /* XHGuideTipManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHGuideTipManager.h; sourceTree = "<group>"; };
 		FCF9906A2122B789007CDEA5 /* XHGuideTipManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHGuideTipManager.m; sourceTree = "<group>"; };
+		FCF9906E2122DD60007CDEA5 /* AppInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfoManager.h; sourceTree = "<group>"; };
+		FCF9906F2122DD60007CDEA5 /* AppInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfoManager.m; sourceTree = "<group>"; };
+		FCF990702122DD60007CDEA5 /* KeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChain.h; sourceTree = "<group>"; };
+		FCF990712122DD60007CDEA5 /* KeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChain.m; sourceTree = "<group>"; };
+		FCF990722122DD60007CDEA5 /* LogsInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogsInfoModel.h; sourceTree = "<group>"; };
+		FCF990732122DD60007CDEA5 /* LogsInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogsInfoModel.m; sourceTree = "<group>"; };
+		FCF990742122DD60007CDEA5 /* MyFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFileLogger.h; sourceTree = "<group>"; };
+		FCF990752122DD60007CDEA5 /* MyFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFileLogger.m; sourceTree = "<group>"; };
+		FCF990762122DD60007CDEA5 /* MyFileLoggerManagerDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFileLoggerManagerDefault.h; sourceTree = "<group>"; };
+		FCF990772122DD60007CDEA5 /* MyFileLoggerManagerDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFileLoggerManagerDefault.m; sourceTree = "<group>"; };
+		FCF990782122DD60007CDEA5 /* MyLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLog.h; sourceTree = "<group>"; };
+		FCF990792122DD60007CDEA5 /* MyLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLog.m; sourceTree = "<group>"; };
+		FCF9907A2122DD60007CDEA5 /* MyLogFromatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLogFromatter.h; sourceTree = "<group>"; };
+		FCF9907B2122DD60007CDEA5 /* MyLogFromatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLogFromatter.m; sourceTree = "<group>"; };
+		FCF9907C2122DD60007CDEA5 /* XHLogsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLogsManager.h; sourceTree = "<group>"; };
+		FCF9907D2122DD60007CDEA5 /* XHLogsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLogsManager.m; sourceTree = "<group>"; };
+		FCF9907F2122DD60007CDEA5 /* LogsExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogsExampleTableViewController.h; sourceTree = "<group>"; };
+		FCF990802122DD60007CDEA5 /* LogsExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogsExampleTableViewController.m; sourceTree = "<group>"; };
+		FCF9908B2122DD9A007CDEA5 /* Logs_PchConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logs_PchConfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -428,6 +456,7 @@
 		FC8932A6211BE28F00647657 /* Home（首页） */ = {
 			isa = PBXGroup;
 			children = (
+				FCF9906C2122DA7D007CDEA5 /* 3.日志记录（Logs_CocoaLumberjack_Demo） */,
 				FCF990622122B664007CDEA5 /* 2.操作引导（ControllerGuideTip_Demo） */,
 				FCF990522122AFF0007CDEA5 /* 1.音频波形图(VoiceWaver) */,
 				FCF990442122A5C9007CDEA5 /* 0.自定义表格绘制（CustomDrawTable_Demo） */,
@@ -719,6 +748,56 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		FCF9906C2122DA7D007CDEA5 /* 3.日志记录（Logs_CocoaLumberjack_Demo） */ = {
+			isa = PBXGroup;
+			children = (
+				FCF9908A2122DD7A007CDEA5 /* Models */,
+				FCF9907E2122DD60007CDEA5 /* Controller */,
+				FCF9906D2122DD60007CDEA5 /* Logs */,
+			);
+			path = "3.日志记录（Logs_CocoaLumberjack_Demo）";
+			sourceTree = "<group>";
+		};
+		FCF9906D2122DD60007CDEA5 /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				FCF9906E2122DD60007CDEA5 /* AppInfoManager.h */,
+				FCF9906F2122DD60007CDEA5 /* AppInfoManager.m */,
+				FCF990702122DD60007CDEA5 /* KeyChain.h */,
+				FCF990712122DD60007CDEA5 /* KeyChain.m */,
+				FCF990722122DD60007CDEA5 /* LogsInfoModel.h */,
+				FCF990732122DD60007CDEA5 /* LogsInfoModel.m */,
+				FCF990742122DD60007CDEA5 /* MyFileLogger.h */,
+				FCF990752122DD60007CDEA5 /* MyFileLogger.m */,
+				FCF990762122DD60007CDEA5 /* MyFileLoggerManagerDefault.h */,
+				FCF990772122DD60007CDEA5 /* MyFileLoggerManagerDefault.m */,
+				FCF990782122DD60007CDEA5 /* MyLog.h */,
+				FCF990792122DD60007CDEA5 /* MyLog.m */,
+				FCF9907A2122DD60007CDEA5 /* MyLogFromatter.h */,
+				FCF9907B2122DD60007CDEA5 /* MyLogFromatter.m */,
+				FCF9907C2122DD60007CDEA5 /* XHLogsManager.h */,
+				FCF9907D2122DD60007CDEA5 /* XHLogsManager.m */,
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
+		FCF9907E2122DD60007CDEA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCF9907F2122DD60007CDEA5 /* LogsExampleTableViewController.h */,
+				FCF990802122DD60007CDEA5 /* LogsExampleTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCF9908A2122DD7A007CDEA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCF9908B2122DD9A007CDEA5 /* Logs_PchConfig.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -913,10 +992,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF990832122DD60007CDEA5 /* LogsInfoModel.m in Sources */,
 				FC384965211D25000063F13F /* UIGestureRecognizer+BlocksKit.m in Sources */,
+				FCF990822122DD60007CDEA5 /* KeyChain.m in Sources */,
 				FC8932C6211C063C00647657 /* AppBaseNavigationController.m in Sources */,
 				FCF9905F2122B013007CDEA5 /* GridsView.m in Sources */,
+				FCF990892122DD60007CDEA5 /* LogsExampleTableViewController.m in Sources */,
 				FC384955211D240C0063F13F /* AppBaseViewController.m in Sources */,
+				FCF990882122DD60007CDEA5 /* XHLogsManager.m in Sources */,
+				FCF990852122DD60007CDEA5 /* MyFileLoggerManagerDefault.m in Sources */,
+				FCF990812122DD60007CDEA5 /* AppInfoManager.m in Sources */,
+				FCF990862122DD60007CDEA5 /* MyLog.m in Sources */,
 				FC8932F6211C434F00647657 /* NSArray+add.m in Sources */,
 				FC8932DE211C170C00647657 /* XHAdViewController.m in Sources */,
 				FC8932D1211C0CE900647657 /* XHAdInfoModel.m in Sources */,
@@ -931,6 +1017,7 @@
 				FC8932E9211C341500647657 /* XHTools.m in Sources */,
 				FC384954211D240C0063F13F /* AppBaseTableViewController.m in Sources */,
 				FC384967211D25000063F13F /* UISearchBar+JCSearchBarPlaceholder.m in Sources */,
+				FCF990872122DD60007CDEA5 /* MyLogFromatter.m in Sources */,
 				FC8932CD211C0C9200647657 /* AppManager.m in Sources */,
 				FC384964211D25000063F13F /* NSObject+Extension.m in Sources */,
 				FCF990512122A688007CDEA5 /* CustomDrawExampleTableViewController.m in Sources */,
@@ -957,6 +1044,7 @@
 				FCF990682122B723007CDEA5 /* GuideTipDemoTableViewController.m in Sources */,
 				FC8932F3211C416900647657 /* YHResetFrameButton.m in Sources */,
 				FC8932CA211C063C00647657 /* AppMainViewController.m in Sources */,
+				FCF990842122DD60007CDEA5 /* MyFileLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
