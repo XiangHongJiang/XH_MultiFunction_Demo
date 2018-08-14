@@ -65,21 +65,18 @@ typedef NS_ENUM(NSInteger,Function_Type){
     NSString *vcName = functionDic[@"vcName"];//vcName
    
     switch (type) {
+            //case 特殊处理
         case Function_Type_Login:
-            
             [self loginStateChangeWithOut:YES];
-            
             break;
-            
-        case Function_Type_CustomDrawTable_Demo:
-        case Function_Type_VoiceWaver_Demo:
-        case Function_Type_GuideTip_Demo:
-            
-            [self.navigationController routePushViewController:vcName withParams:@{kTitle:title} animated:YES];
-            
-            break;
-            
+        
+            //default 推出新的控制器
         default:
+        {
+            if (vcName.length) {
+                [self.navigationController routePushViewController:vcName withParams:@{kTitle:title} animated:YES];
+            }
+        }
             break;
     }
     

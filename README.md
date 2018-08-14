@@ -3,21 +3,20 @@
 #### 项目介绍
 功能模块的集合
 
-#### 软件架构
-软件架构说明
+#### 软件架构 & 使用说明
+0.  指纹解锁（TouchId）
+    * [指纹解锁]( https://github.com/XiangHongJiang/TouchID_Test )
+    
+1. 自定义表格绘制（CustomDrawTable_Demo）
+    * [自定义表格绘制]( https://github.com/XiangHongJiang/CustomDrawTable_Demo )
+
+2. 音频波形图(VoiceWaver)
+    * [音频波形图]( https://github.com/XiangHongJiang/VoiceWaver_Demo )
+
+3. 操作引导（ControllerGuideTip_Demo）
+    * [操作引导]( https://github.com/XiangHongJiang/ControllerGuideTip_Demo )
 
 
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
 
 
 
