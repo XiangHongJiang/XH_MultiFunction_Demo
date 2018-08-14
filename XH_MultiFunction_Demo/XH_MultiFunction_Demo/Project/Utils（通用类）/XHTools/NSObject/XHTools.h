@@ -19,6 +19,7 @@
 +(UIView *)xh_getUIViewWithFrame:(CGRect)frame withBackgroundColor:(UIColor *)backgroundColor;
 /** 创建label*/
 + (UILabel *)xh_getUILabelWithFrame:(CGRect)frame text:(NSString *)text textColor:(UIColor *)color font:(CGFloat)font textAligment:(NSTextAlignment)textAligment;
++ (UILabel *)getUILabelWithFrame:(CGRect)frame withTitle:(NSString *)title withFont:(CGFloat)fontSize withTextColor:(UIColor *)textColor;
 /** 普通Btn*/
 +(UIButton *)xh_getUIButtonWithFrame:(CGRect)rect withTitle:(NSString *)text withFont:(CGFloat)fontSize  withTarge:(id)target withSel:(SEL)sel;
 +(UIButton *)xh_getUIButtonWithCustromWithFrame:(CGRect)rect withTitle:(NSString *)text withFont:(CGFloat)fontSize textColor:(UIColor*)textColor withBackgroundColor:(UIColor *)backgroundColor withTarge:(id)target withSel:(SEL)sel;

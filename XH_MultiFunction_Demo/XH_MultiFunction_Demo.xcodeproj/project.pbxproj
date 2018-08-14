@@ -52,6 +52,9 @@
 		FC8932F9211C479100647657 /* TouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932F8211C479100647657 /* TouchID.m */; };
 		FC8932FC211C47D900647657 /* UIView+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932FB211C47D900647657 /* UIView+Activity.m */; };
 		FCF9903D212277EE007CDEA5 /* MBProgressHUD+XHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9903C212277EE007CDEA5 /* MBProgressHUD+XHAdd.m */; };
+		FCF9904F2122A688007CDEA5 /* XHCarInwayDataDailyInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF990482122A688007CDEA5 /* XHCarInwayDataDailyInfoModel.m */; };
+		FCF990502122A688007CDEA5 /* XHCarInWayDataTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9904B2122A688007CDEA5 /* XHCarInWayDataTableView.m */; };
+		FCF990512122A688007CDEA5 /* CustomDrawExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9904E2122A688007CDEA5 /* CustomDrawExampleTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +167,12 @@
 		FC8932FB211C47D900647657 /* UIView+Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Activity.m"; sourceTree = "<group>"; };
 		FCF9903B212277EE007CDEA5 /* MBProgressHUD+XHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XHAdd.h"; sourceTree = "<group>"; };
 		FCF9903C212277EE007CDEA5 /* MBProgressHUD+XHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XHAdd.m"; sourceTree = "<group>"; };
+		FCF990472122A688007CDEA5 /* XHCarInwayDataDailyInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCarInwayDataDailyInfoModel.h; sourceTree = "<group>"; };
+		FCF990482122A688007CDEA5 /* XHCarInwayDataDailyInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCarInwayDataDailyInfoModel.m; sourceTree = "<group>"; };
+		FCF9904A2122A688007CDEA5 /* XHCarInWayDataTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCarInWayDataTableView.h; sourceTree = "<group>"; };
+		FCF9904B2122A688007CDEA5 /* XHCarInWayDataTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCarInWayDataTableView.m; sourceTree = "<group>"; };
+		FCF9904D2122A688007CDEA5 /* CustomDrawExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDrawExampleTableViewController.h; sourceTree = "<group>"; };
+		FCF9904E2122A688007CDEA5 /* CustomDrawExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDrawExampleTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,6 +410,7 @@
 		FC8932A6211BE28F00647657 /* Home（首页） */ = {
 			isa = PBXGroup;
 			children = (
+				FCF990442122A5C9007CDEA5 /* 0.自定义表格绘制（CustomDrawTable_Demo） */,
 				FC38493A211D23240063F13F /* Index */,
 			);
 			path = "Home（首页）";
@@ -576,6 +586,43 @@
 				FC8932EB211C410200647657 /* XHDrawer.m */,
 			);
 			path = XHView;
+			sourceTree = "<group>";
+		};
+		FCF990442122A5C9007CDEA5 /* 0.自定义表格绘制（CustomDrawTable_Demo） */ = {
+			isa = PBXGroup;
+			children = (
+				FCF990462122A688007CDEA5 /* Model */,
+				FCF990492122A688007CDEA5 /* View */,
+				FCF9904C2122A688007CDEA5 /* ViewController */,
+			);
+			path = "0.自定义表格绘制（CustomDrawTable_Demo）";
+			sourceTree = "<group>";
+		};
+		FCF990462122A688007CDEA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCF990472122A688007CDEA5 /* XHCarInwayDataDailyInfoModel.h */,
+				FCF990482122A688007CDEA5 /* XHCarInwayDataDailyInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCF990492122A688007CDEA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCF9904A2122A688007CDEA5 /* XHCarInWayDataTableView.h */,
+				FCF9904B2122A688007CDEA5 /* XHCarInWayDataTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCF9904C2122A688007CDEA5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FCF9904D2122A688007CDEA5 /* CustomDrawExampleTableViewController.h */,
+				FCF9904E2122A688007CDEA5 /* CustomDrawExampleTableViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -784,12 +831,14 @@
 				FC8932DB211C15C600647657 /* ZWIntroductionViewController.m in Sources */,
 				FC384970211D6FBA0063F13F /* UIScrollView+Offset.m in Sources */,
 				FC893274211BDF5300647657 /* ViewController.m in Sources */,
+				FCF990502122A688007CDEA5 /* XHCarInWayDataTableView.m in Sources */,
 				FC89327F211BDF5300647657 /* main.m in Sources */,
 				FC8932E9211C341500647657 /* XHTools.m in Sources */,
 				FC384954211D240C0063F13F /* AppBaseTableViewController.m in Sources */,
 				FC384967211D25000063F13F /* UISearchBar+JCSearchBarPlaceholder.m in Sources */,
 				FC8932CD211C0C9200647657 /* AppManager.m in Sources */,
 				FC384964211D25000063F13F /* NSObject+Extension.m in Sources */,
+				FCF990512122A688007CDEA5 /* CustomDrawExampleTableViewController.m in Sources */,
 				FC38495B211D24880063F13F /* AppBaseTableViewDataModel.m in Sources */,
 				FC8932ED211C410200647657 /* XHDrawer.m in Sources */,
 				FC8932D4211C0D2100647657 /* AppUserInfoModel.m in Sources */,
@@ -805,6 +854,7 @@
 				FC384952211D240C0063F13F /* AppBaseTableViewCell.m in Sources */,
 				FC8932E5211C2B7000647657 /* LoginVC.m in Sources */,
 				FCF9903D212277EE007CDEA5 /* MBProgressHUD+XHAdd.m in Sources */,
+				FCF9904F2122A688007CDEA5 /* XHCarInwayDataDailyInfoModel.m in Sources */,
 				FC8932F3211C416900647657 /* YHResetFrameButton.m in Sources */,
 				FC8932CA211C063C00647657 /* AppMainViewController.m in Sources */,
 			);

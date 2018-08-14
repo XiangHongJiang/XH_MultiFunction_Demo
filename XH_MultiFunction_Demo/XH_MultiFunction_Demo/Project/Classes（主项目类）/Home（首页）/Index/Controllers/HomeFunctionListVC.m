@@ -8,6 +8,12 @@
 
 #import "HomeFunctionListVC.h"
 
+typedef NS_ENUM(NSInteger,Function_Type){
+    
+    Function_Type_Login,//登录
+    Function_Type_CustomDrawTable_Demo,//自定义表格绘制
+    
+};
 
 @interface HomeFunctionListVC ()
 
@@ -15,10 +21,10 @@
 
 @implementation HomeFunctionListVC
 
+#pragma mark - System Method
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
     [self configData];
 }
 
@@ -26,32 +32,45 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+#pragma mark - Custom Method
 - (void)configData {
     
+    NSArray *functionArray = @[
+                                   @{kTitle:@"退出登录",@"type":@(Function_Type_Login)},
+                                   @{kTitle:@"0.自定义表格绘制",@"type":@(Function_Type_CustomDrawTable_Demo)},
 
-    [self.viewModel addDatasFromArray:@[@"退出登录",@"测试1",@"测试2"] atSection:0];
+                                   ];
+    
+    [self.viewModel addDatasFromArray:functionArray atSection:0];
     
 }
-
+#pragma mark - TableView Delegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    switch (indexPath.row) {
-        case 0:
+    NSDictionary *functionDic = [[self.viewModel.allDataDic objectForKey:@(indexPath.section)] safeObjectAtIndex:indexPath.row];
+    Function_Type type = [functionDic[@"type"] integerValue];//type
+    NSString *title = functionDic[kTitle]?functionDic[kTitle]:@"";//name
+    
+    switch (type) {
+        case Function_Type_Login:
             [self loginStateChangeWithOut:YES];
             break;
             
-        case 1:
-            
+        case Function_Type_CustomDrawTable_Demo:
+            [self.navigationController routePushViewController:@"CustomDrawExampleTableViewController" withParams:@{kTitle:title} animated:YES];
+
             break;
             
         default:
             break;
     }
     
+    
 }
+#pragma mark - Action
+/** 退出登录*/
 - (void)loginStateChangeWithOut:(BOOL)isOut {
     
     if (isOut) {
