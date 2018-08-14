@@ -17,7 +17,7 @@
     * [操作引导]( https://github.com/XiangHongJiang/ControllerGuideTip_Demo )
 
 4. 日志记录（Logs_CocoaLumberjack_Demo）
-* [日志记录]( https://github.com/XiangHongJiang/Logs_CocoaLumberjack_Demo )
+    * [日志记录]( https://github.com/XiangHongJiang/Logs_CocoaLumberjack_Demo )
 
 
 
