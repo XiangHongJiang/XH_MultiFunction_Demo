@@ -51,6 +51,7 @@
 		FC8932F6211C434F00647657 /* NSArray+add.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932F5211C434F00647657 /* NSArray+add.m */; };
 		FC8932F9211C479100647657 /* TouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932F8211C479100647657 /* TouchID.m */; };
 		FC8932FC211C47D900647657 /* UIView+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932FB211C47D900647657 /* UIView+Activity.m */; };
+		FCF9903D212277EE007CDEA5 /* MBProgressHUD+XHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9903C212277EE007CDEA5 /* MBProgressHUD+XHAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +162,8 @@
 		FC8932F8211C479100647657 /* TouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchID.m; sourceTree = "<group>"; };
 		FC8932FA211C47D900647657 /* UIView+Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Activity.h"; sourceTree = "<group>"; };
 		FC8932FB211C47D900647657 /* UIView+Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Activity.m"; sourceTree = "<group>"; };
+		FCF9903B212277EE007CDEA5 /* MBProgressHUD+XHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XHAdd.h"; sourceTree = "<group>"; };
+		FCF9903C212277EE007CDEA5 /* MBProgressHUD+XHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XHAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -509,6 +512,8 @@
 				FC8932D7211C0EC800647657 /* UIColor+additions.m */,
 				FC8932F4211C434F00647657 /* NSArray+add.h */,
 				FC8932F5211C434F00647657 /* NSArray+add.m */,
+				FCF9903B212277EE007CDEA5 /* MBProgressHUD+XHAdd.h */,
+				FCF9903C212277EE007CDEA5 /* MBProgressHUD+XHAdd.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -799,6 +804,7 @@
 				FC384966211D25000063F13F /* UINavigationController+RoutePush.m in Sources */,
 				FC384952211D240C0063F13F /* AppBaseTableViewCell.m in Sources */,
 				FC8932E5211C2B7000647657 /* LoginVC.m in Sources */,
+				FCF9903D212277EE007CDEA5 /* MBProgressHUD+XHAdd.m in Sources */,
 				FC8932F3211C416900647657 /* YHResetFrameButton.m in Sources */,
 				FC8932CA211C063C00647657 /* AppMainViewController.m in Sources */,
 			);
@@ -965,6 +971,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EA72JG3VB5;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XH_MultiFunction_Demo/Project/Utils（通用类）/Prefix/PrefixHeader.pch";
 				INFOPLIST_FILE = XH_MultiFunction_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -981,6 +988,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EA72JG3VB5;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XH_MultiFunction_Demo/Project/Utils（通用类）/Prefix/PrefixHeader.pch";
 				INFOPLIST_FILE = XH_MultiFunction_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

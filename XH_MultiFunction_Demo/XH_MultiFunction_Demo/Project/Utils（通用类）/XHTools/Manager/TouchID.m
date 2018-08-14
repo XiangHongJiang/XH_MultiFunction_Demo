@@ -32,6 +32,7 @@ static TouchID *instance = nil;
         
         dispatch_async(dispatch_get_main_queue(), ^{
             NSLog(@"系统版本不支持TouchID (必须高于iOS 8.0才能使用)");
+            ShowMessage(@"系统版本不支持TouchID (必须高于iOS 8.0才能使用)");
             block(TBTouchIDStateVersionNotSupport,nil);
         });
         
@@ -83,6 +84,7 @@ static TouchID *instance = nil;
                     dispatch_async(dispatch_get_main_queue(), ^{
                         NSLog(@"TouchID 无法启动,因为用户没有设置密码");
 //                        [TBProgressHUD showErrorWithtitle:@"您的设备未设置密码"];
+                        ShowMessage(@"TouchID 无法启动,您的设备未设置密码");
                         block(TBTouchIDStatePasswordNotSet,error);
                     });
                 }
@@ -91,6 +93,8 @@ static TouchID *instance = nil;
                     dispatch_async(dispatch_get_main_queue(), ^{
                         NSLog(@"TouchID 无法启动,因为用户没有设置TouchID");
 //                        [TBProgressHUD showErrorWithtitle:@"您的设备未录入指纹"];
+                        ShowMessage(@"您的设备未录入指纹");
+
                         block(TBTouchIDStateTouchIDNotSet,error);
                     });
                 }
@@ -98,6 +102,8 @@ static TouchID *instance = nil;
                 case LAErrorTouchIDNotAvailable:{
                     dispatch_async(dispatch_get_main_queue(), ^{
                         NSLog(@"TouchID 无效");
+                        ShowMessage(@"TouchID 无效");
+
                         block(TBTouchIDStateTouchIDNotAvailable,error);
                     });
                 }
@@ -105,6 +111,7 @@ static TouchID *instance = nil;
                 case LAErrorTouchIDLockout:{//iOS 9.0之后才有
                     dispatch_async(dispatch_get_main_queue(), ^{
                         NSLog(@"TouchID 被锁定(连续多次验证TouchID失败,系统需要用户手动输入密码)");
+                        ShowMessage(@"TouchID 被锁定(连续多次验证TouchID失败,系统需要用户手动输入密码)");
 
                         if (@available(iOS 9.0, *)) {
                          LAContext * touchId = [LAContext new];

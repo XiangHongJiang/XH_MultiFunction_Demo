@@ -72,21 +72,22 @@
     __weak typeof(self) weakSelf = self;
 
     [[TouchID shareInstance] showTouchIdWithDesc:nil andStateBlock:^(TBTouchIDState state, NSError *error) {
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            
+            [sender removeActivityIndicatorWithTitle:@"TouchID登录"];
 
-        if (state == TBTouchIDStateSuccess) {
-            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                [weakSelf loginSucceed];
-
+            if (state == TBTouchIDStateSuccess) {
                 if (weakSelf.loginSucceedBlock) {
                     weakSelf.loginSucceedBlock();
                 }
-                [sender removeActivityIndicatorWithTitle:@"TouchID登录"];
-            });
-        }else {
+                [weakSelf loginSucceed];
 
-        }
-
-
+            }else {
+                
+            }
+            
+        });
     }];
     
     

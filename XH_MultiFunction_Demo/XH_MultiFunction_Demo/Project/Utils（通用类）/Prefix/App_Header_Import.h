@@ -17,13 +17,13 @@
 #import <MJRefresh.h>
 #import <Masonry.h>
 
-
 //categorys:分类
 #pragma mark - Categorys
 #import "UIColor+additions.h"
 #import "NSArray+add.h"
 #import "UIView+Activity.h"
 #import "UINavigationController+RoutePush.h"
+#import "MBProgressHUD+XHAdd.h"
 
 //vc
 #import "LoginVC.h"
