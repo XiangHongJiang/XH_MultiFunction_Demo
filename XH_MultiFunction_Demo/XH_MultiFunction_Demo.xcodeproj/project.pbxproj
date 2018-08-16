@@ -24,6 +24,8 @@
 		FC384970211D6FBA0063F13F /* UIScrollView+Offset.m in Sources */ = {isa = PBXBuildFile; fileRef = FC38496E211D6FB90063F13F /* UIScrollView+Offset.m */; };
 		FC384973211D716D0063F13F /* HomeFunctionListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384972211D716D0063F13F /* HomeFunctionListVC.m */; };
 		FC384975211D821F0063F13F /* LaunchGuideImage_0.png in Resources */ = {isa = PBXBuildFile; fileRef = FC384974211D821E0063F13F /* LaunchGuideImage_0.png */; };
+		FC7DDDF5212520B000CBCC61 /* CustomQRCodeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7DDDF4212520B000CBCC61 /* CustomQRCodeDemoViewController.m */; };
+		FC7DDDF92125222000CBCC61 /* NPQRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7DDDF82125222000CBCC61 /* NPQRCodeManager.m */; };
 		FC893271211BDF5300647657 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC893270211BDF5200647657 /* AppDelegate.m */; };
 		FC893274211BDF5300647657 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC893273211BDF5300647657 /* ViewController.m */; };
 		FC893277211BDF5300647657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC893275211BDF5300647657 /* Main.storyboard */; };
@@ -123,6 +125,10 @@
 		FC384971211D716D0063F13F /* HomeFunctionListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFunctionListVC.h; sourceTree = "<group>"; };
 		FC384972211D716D0063F13F /* HomeFunctionListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFunctionListVC.m; sourceTree = "<group>"; };
 		FC384974211D821E0063F13F /* LaunchGuideImage_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchGuideImage_0.png; sourceTree = "<group>"; };
+		FC7DDDF3212520B000CBCC61 /* CustomQRCodeDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomQRCodeDemoViewController.h; sourceTree = "<group>"; };
+		FC7DDDF4212520B000CBCC61 /* CustomQRCodeDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomQRCodeDemoViewController.m; sourceTree = "<group>"; };
+		FC7DDDF72125222000CBCC61 /* NPQRCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPQRCodeManager.h; sourceTree = "<group>"; };
+		FC7DDDF82125222000CBCC61 /* NPQRCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPQRCodeManager.m; sourceTree = "<group>"; };
 		FC89326C211BDF5200647657 /* XH_MultiFunction_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XH_MultiFunction_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC89326F211BDF5200647657 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC893270211BDF5200647657 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -368,6 +374,33 @@
 			path = "ThirdFramework（三方库）";
 			sourceTree = "<group>";
 		};
+		FC7DDDF12125203100CBCC61 /* 4.二维码（CustomQRCodeProduct） */ = {
+			isa = PBXGroup;
+			children = (
+				FC7DDDF6212521C100CBCC61 /* Models */,
+				FC7DDDF22125203C00CBCC61 /* Controller */,
+			);
+			path = "4.二维码（CustomQRCodeProduct）";
+			sourceTree = "<group>";
+		};
+		FC7DDDF22125203C00CBCC61 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC7DDDF3212520B000CBCC61 /* CustomQRCodeDemoViewController.h */,
+				FC7DDDF4212520B000CBCC61 /* CustomQRCodeDemoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FC7DDDF6212521C100CBCC61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC7DDDF72125222000CBCC61 /* NPQRCodeManager.h */,
+				FC7DDDF82125222000CBCC61 /* NPQRCodeManager.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FC893263211BDF5200647657 = {
 			isa = PBXGroup;
 			children = (
@@ -456,6 +489,7 @@
 		FC8932A6211BE28F00647657 /* Home（首页） */ = {
 			isa = PBXGroup;
 			children = (
+				FC7DDDF12125203100CBCC61 /* 4.二维码（CustomQRCodeProduct） */,
 				FCF9906C2122DA7D007CDEA5 /* 3.日志记录（Logs_CocoaLumberjack_Demo） */,
 				FCF990622122B664007CDEA5 /* 2.操作引导（ControllerGuideTip_Demo） */,
 				FCF990522122AFF0007CDEA5 /* 1.音频波形图(VoiceWaver) */,
@@ -994,6 +1028,7 @@
 			files = (
 				FCF990832122DD60007CDEA5 /* LogsInfoModel.m in Sources */,
 				FC384965211D25000063F13F /* UIGestureRecognizer+BlocksKit.m in Sources */,
+				FC7DDDF5212520B000CBCC61 /* CustomQRCodeDemoViewController.m in Sources */,
 				FCF990822122DD60007CDEA5 /* KeyChain.m in Sources */,
 				FC8932C6211C063C00647657 /* AppBaseNavigationController.m in Sources */,
 				FCF9905F2122B013007CDEA5 /* GridsView.m in Sources */,
@@ -1016,6 +1051,7 @@
 				FC89327F211BDF5300647657 /* main.m in Sources */,
 				FC8932E9211C341500647657 /* XHTools.m in Sources */,
 				FC384954211D240C0063F13F /* AppBaseTableViewController.m in Sources */,
+				FC7DDDF92125222000CBCC61 /* NPQRCodeManager.m in Sources */,
 				FC384967211D25000063F13F /* UISearchBar+JCSearchBarPlaceholder.m in Sources */,
 				FCF990872122DD60007CDEA5 /* MyLogFromatter.m in Sources */,
 				FC8932CD211C0C9200647657 /* AppManager.m in Sources */,
