@@ -19,7 +19,8 @@
 4. 日志记录（Logs_CocoaLumberjack_Demo）
     * [日志记录]( https://github.com/XiangHongJiang/Logs_CocoaLumberjack_Demo )
 
-
+5. 二维码（CustomQRCodeProduct）
+    * [二维码]( https://github.com/XiangHongJiang/CustomQRCodeProduct)
 
 
 
