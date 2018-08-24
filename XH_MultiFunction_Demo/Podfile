@@ -11,5 +11,5 @@ pod 'MBProgressHUD'
 #日志记录
 pod 'CocoaLumberjack'
 
-
+pod 'ZZCircleProgress'
 end

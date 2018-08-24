@@ -49,10 +49,18 @@
 - (void)configSubViews {//
     
     //添加控制器
-    [self.tabBarController addChildViewControllerWithInfoArray:@[@{kClassName:@"HomeFunctionListVC",kTabbarTitle:@"首页",kTabbarImage:@"",kTabbarSelectImage:@""},
-                                                                 @{kClassName:@"",kTabbarTitle:@"测试",kTabbarImage:@"",kTabbarSelectImage:@""},
-                                                                 @{},
-                                                                 @{}]];
+    [self.tabBarController addChildViewControllerWithInfoArray:@[
+  @{kClassName:@"HomeFunctionListVC",kTabbarTitle:@"首页",kTabbarImage:@"",kTabbarSelectImage:@""},
+  
+  @{kClassName:@"TestHomeViewController",kTabbarTitle:@"测试",kTabbarImage:@"",kTabbarSelectImage:@""},
+  
+  @{},
+  
+  @{}
+                                                                 ]
+     ];
+    
+    
 
 }
 /** 初始化服务器配置和广告：在初始化结束后将显示TabBarVC*/

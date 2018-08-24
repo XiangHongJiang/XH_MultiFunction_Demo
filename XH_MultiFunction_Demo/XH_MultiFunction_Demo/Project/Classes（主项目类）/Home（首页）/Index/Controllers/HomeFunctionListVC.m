@@ -51,8 +51,6 @@ typedef NS_ENUM(NSInteger,Function_Type){
                                    @{kTitle:@"3.日志记录",@"vcName":@"LogsExampleTableViewController",@"type":@(Function_Type_Logs_CocoaLumberjack_Demo)},
                                    @{kTitle:@"4.二维码",@"vcName":@"CustomQRCodeDemoViewController",@"type":@(Function_Type_Logs_CustomQRCodeProduct)},
 
-                                   
-
                                    ];
     
     [self.viewModel addDatasFromArray:functionArray atSection:0];

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D872A26B8CB9FA0B67C5B99F /* libPods-XH_MultiFunction_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE27AE2BBFCA22ADE871297A /* libPods-XH_MultiFunction_Demo.a */; };
+		FC1F5E10212E4B35006468BD /* TestHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1F5E0D212E4B35006468BD /* TestHomeViewController.m */; };
 		FC384952211D240C0063F13F /* AppBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384942211D240C0063F13F /* AppBaseTableViewCell.m */; };
 		FC384953211D240C0063F13F /* AppBaseCustomSystemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384945211D240C0063F13F /* AppBaseCustomSystemTableViewController.m */; };
 		FC384954211D240C0063F13F /* AppBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384947211D240C0063F13F /* AppBaseTableViewController.m */; };
@@ -53,6 +54,7 @@
 		FC8932F6211C434F00647657 /* NSArray+add.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932F5211C434F00647657 /* NSArray+add.m */; };
 		FC8932F9211C479100647657 /* TouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932F8211C479100647657 /* TouchID.m */; };
 		FC8932FC211C47D900647657 /* UIView+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932FB211C47D900647657 /* UIView+Activity.m */; };
+		FCDDEB6B212FEC5E00EDD1AE /* XHCarInWayDataHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDDEB6A212FEC5E00EDD1AE /* XHCarInWayDataHeaderView.m */; };
 		FCF9903D212277EE007CDEA5 /* MBProgressHUD+XHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9903C212277EE007CDEA5 /* MBProgressHUD+XHAdd.m */; };
 		FCF9904F2122A688007CDEA5 /* XHCarInwayDataDailyInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF990482122A688007CDEA5 /* XHCarInwayDataDailyInfoModel.m */; };
 		FCF990502122A688007CDEA5 /* XHCarInWayDataTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9904B2122A688007CDEA5 /* XHCarInWayDataTableView.m */; };
@@ -95,6 +97,8 @@
 		46C97B3AB8747B4ACCFA45A8 /* Pods-XH_MultiFunction_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XH_MultiFunction_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XH_MultiFunction_Demo/Pods-XH_MultiFunction_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		5CC44D7C6B7BC251C405AB48 /* Pods-XH_MultiFunction_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XH_MultiFunction_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XH_MultiFunction_Demo/Pods-XH_MultiFunction_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		BE27AE2BBFCA22ADE871297A /* libPods-XH_MultiFunction_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XH_MultiFunction_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1F5E0C212E4B35006468BD /* TestHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHomeViewController.h; sourceTree = "<group>"; };
+		FC1F5E0D212E4B35006468BD /* TestHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHomeViewController.m; sourceTree = "<group>"; };
 		FC384941211D240C0063F13F /* AppBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseTableViewCell.h; sourceTree = "<group>"; };
 		FC384942211D240C0063F13F /* AppBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBaseTableViewCell.m; sourceTree = "<group>"; };
 		FC384944211D240C0063F13F /* AppBaseCustomSystemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseCustomSystemTableViewController.h; sourceTree = "<group>"; };
@@ -186,6 +190,8 @@
 		FC8932F8211C479100647657 /* TouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchID.m; sourceTree = "<group>"; };
 		FC8932FA211C47D900647657 /* UIView+Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Activity.h"; sourceTree = "<group>"; };
 		FC8932FB211C47D900647657 /* UIView+Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Activity.m"; sourceTree = "<group>"; };
+		FCDDEB69212FEC5E00EDD1AE /* XHCarInWayDataHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCarInWayDataHeaderView.h; sourceTree = "<group>"; };
+		FCDDEB6A212FEC5E00EDD1AE /* XHCarInWayDataHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCarInWayDataHeaderView.m; sourceTree = "<group>"; };
 		FCF9903B212277EE007CDEA5 /* MBProgressHUD+XHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XHAdd.h"; sourceTree = "<group>"; };
 		FCF9903C212277EE007CDEA5 /* MBProgressHUD+XHAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XHAdd.m"; sourceTree = "<group>"; };
 		FCF990472122A688007CDEA5 /* XHCarInwayDataDailyInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCarInwayDataDailyInfoModel.h; sourceTree = "<group>"; };
@@ -268,6 +274,49 @@
 				BE27AE2BBFCA22ADE871297A /* libPods-XH_MultiFunction_Demo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC1F5E09212E4B35006468BD /* Test(测试) */ = {
+			isa = PBXGroup;
+			children = (
+				FC1F5E0A212E4B35006468BD /* Index */,
+			);
+			path = "Test(测试)";
+			sourceTree = "<group>";
+		};
+		FC1F5E0A212E4B35006468BD /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				FC1F5E0B212E4B35006468BD /* Controllers */,
+				FC1F5E0E212E4B35006468BD /* Models */,
+				FC1F5E0F212E4B35006468BD /* Views */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		FC1F5E0B212E4B35006468BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC1F5E0C212E4B35006468BD /* TestHomeViewController.h */,
+				FC1F5E0D212E4B35006468BD /* TestHomeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FC1F5E0E212E4B35006468BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC1F5E0F212E4B35006468BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDEB69212FEC5E00EDD1AE /* XHCarInWayDataHeaderView.h */,
+				FCDDEB6A212FEC5E00EDD1AE /* XHCarInWayDataHeaderView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		FC38493A211D23240063F13F /* Index */ = {
@@ -482,6 +531,7 @@
 			children = (
 				FC8932BA211C063C00647657 /* Main（主框架） */,
 				FC8932A6211BE28F00647657 /* Home（首页） */,
+				FC1F5E09212E4B35006468BD /* Test(测试) */,
 			);
 			path = "Classes（主项目类）";
 			sourceTree = "<group>";
@@ -1009,6 +1059,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XH_MultiFunction_Demo/Pods-XH_MultiFunction_Demo-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/ZZCircleProgress/ZZCircleProgressDemo/ZZCircleProgress/ZZCircleProgress.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -1037,6 +1088,7 @@
 				FCF990882122DD60007CDEA5 /* XHLogsManager.m in Sources */,
 				FCF990852122DD60007CDEA5 /* MyFileLoggerManagerDefault.m in Sources */,
 				FCF990812122DD60007CDEA5 /* AppInfoManager.m in Sources */,
+				FC1F5E10212E4B35006468BD /* TestHomeViewController.m in Sources */,
 				FCF990862122DD60007CDEA5 /* MyLog.m in Sources */,
 				FC8932F6211C434F00647657 /* NSArray+add.m in Sources */,
 				FC8932DE211C170C00647657 /* XHAdViewController.m in Sources */,
@@ -1071,6 +1123,7 @@
 				FC384957211D240C0063F13F /* AppBaseTableView.m in Sources */,
 				FCF9905E2122B013007CDEA5 /* RecordManager.m in Sources */,
 				FCF990612122B013007CDEA5 /* WaverExampleTableViewController.m in Sources */,
+				FCDDEB6B212FEC5E00EDD1AE /* XHCarInWayDataHeaderView.m in Sources */,
 				FC384966211D25000063F13F /* UINavigationController+RoutePush.m in Sources */,
 				FCF9906B2122B78A007CDEA5 /* XHGuideTipManager.m in Sources */,
 				FC384952211D240C0063F13F /* AppBaseTableViewCell.m in Sources */,
