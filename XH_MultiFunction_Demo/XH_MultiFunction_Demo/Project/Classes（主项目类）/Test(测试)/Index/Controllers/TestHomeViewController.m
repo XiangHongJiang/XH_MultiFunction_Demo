@@ -45,8 +45,6 @@
 - (void)configSubViews {
     
     self.navigationItem.title = @"测试列表";
-    
-
 
     self.tableView.tableHeaderView = self.topView;
     
@@ -55,8 +53,8 @@
 #pragma mark - TableView Delegate 代理（TableVieW）
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    
-    
+    [self.topView configData:nil withDate:nil];
+
 }
 
 #pragma mark - NetWork 网络请求
@@ -68,7 +66,9 @@
                                
                                ];
     
-    [self.viewModel addDatasFromArray:functionArray atSection:0];}
+    [self.viewModel addDatasFromArray:functionArray atSection:0];
+    
+}
 #pragma mark - Action 响应事件
 
 
