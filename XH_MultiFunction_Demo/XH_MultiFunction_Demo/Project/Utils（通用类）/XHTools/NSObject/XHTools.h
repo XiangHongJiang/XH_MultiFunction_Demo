@@ -94,7 +94,11 @@
 + (NSInteger)getMounthCountWithYearStr:(NSString *)yearStr andMounth:(NSString *)mounthStr;
 
 + (void)shapeRadiusWithView:(UIView *)view withTop:(BOOL)isTop;
-
-
+/**
+ *  二代身份证校验算法
+ */
++ (BOOL)isIdentityNumValid:(NSString *)identityNum;
+/** 根据身份证号获取生日 */
++(NSString *)birthdayStr:(NSString *)dataStr;
 
 @end

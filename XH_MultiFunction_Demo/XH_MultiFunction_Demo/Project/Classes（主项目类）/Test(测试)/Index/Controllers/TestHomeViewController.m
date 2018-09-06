@@ -9,6 +9,7 @@
 #import "TestHomeViewController.h"
 #import "XHCarInWayDataHeaderView.h"
 
+
 @interface TestHomeViewController ()
 
 /** topView*/
@@ -53,7 +54,27 @@
 #pragma mark - TableView Delegate 代理（TableVieW）
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    [self.topView configData:nil withDate:nil];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    NSDictionary *functionDic = [[self.viewModel.allDataDic objectForKey:@(indexPath.section)] safeObjectAtIndex:indexPath.row];
+    NSInteger type = [functionDic[@"type"] integerValue];//type
+    NSString *title = functionDic[kTitle]?functionDic[kTitle]:@"";//name
+    NSString *vcName = functionDic[@"vcName"];//vcName
+    
+    switch (type) {
+        case 0:
+            [self.topView configData:nil withDate:nil];
+            break;
+            
+            //default 推出新的控制器
+        default:
+        {
+            if (vcName.length) {
+                [self.navigationController routePushViewController:vcName withParams:@{kTitle:title} animated:YES];
+            }
+        }
+            break;
+    }
 
 }
 
@@ -63,6 +84,8 @@
 
     NSArray *functionArray = @[
                                @{kTitle:@"圆弧",@"vcName":@"CustomDrawExampleTableViewController",@"type":@(0)},
+                               @{kTitle:@"OCR",@"vcName":@"OCRTestViewController",@"type":@(1)},
+
                                
                                ];
     

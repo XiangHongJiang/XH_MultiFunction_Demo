@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D872A26B8CB9FA0B67C5B99F /* libPods-XH_MultiFunction_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE27AE2BBFCA22ADE871297A /* libPods-XH_MultiFunction_Demo.a */; };
+		FC03AD70213FBFED00073827 /* UIImage+AD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC03AD6E213FBFEC00073827 /* UIImage+AD.m */; };
+		FC03AD73213FC1A700073827 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FC03AD72213FC1A700073827 /* NSString+Extension.m */; };
+		FC083C442140B4E000615A32 /* libbankcard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC755F28213E7B9F00206667 /* libbankcard.a */; };
 		FC1F5E10212E4B35006468BD /* TestHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1F5E0D212E4B35006468BD /* TestHomeViewController.m */; };
 		FC384952211D240C0063F13F /* AppBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384942211D240C0063F13F /* AppBaseTableViewCell.m */; };
 		FC384953211D240C0063F13F /* AppBaseCustomSystemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384945211D240C0063F13F /* AppBaseCustomSystemTableViewController.m */; };
@@ -25,6 +28,14 @@
 		FC384970211D6FBA0063F13F /* UIScrollView+Offset.m in Sources */ = {isa = PBXBuildFile; fileRef = FC38496E211D6FB90063F13F /* UIScrollView+Offset.m */; };
 		FC384973211D716D0063F13F /* HomeFunctionListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384972211D716D0063F13F /* HomeFunctionListVC.m */; };
 		FC384975211D821F0063F13F /* LaunchGuideImage_0.png in Resources */ = {isa = PBXBuildFile; fileRef = FC384974211D821E0063F13F /* LaunchGuideImage_0.png */; };
+		FC3FA990213F839000FBB663 /* MGBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3FA993213F839000FBB663 /* MGBaseKit.framework */; };
+		FC3FA991213F839000FBB663 /* MGIDCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3FA994213F839000FBB663 /* MGIDCard.framework */; };
+		FC3FA992213F839000FBB663 /* MGLivenessDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3FA995213F839000FBB663 /* MGLivenessDetection.framework */; };
+		FC3FA997213FA18300FBB663 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3FA996213FA18300FBB663 /* libc++.tbd */; };
+		FC755F21213E78D700206667 /* OCRTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC755F20213E78D700206667 /* OCRTestViewController.m */; };
+		FC755F33213E7B9F00206667 /* CardScaningView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC755F2B213E7B9F00206667 /* CardScaningView.m */; };
+		FC755F34213E7B9F00206667 /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC755F2D213E7B9F00206667 /* RectManager.m */; };
+		FC755F35213E7B9F00206667 /* TBOCRVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC755F2F213E7B9F00206667 /* TBOCRVC.m */; };
 		FC7DDDF5212520B000CBCC61 /* CustomQRCodeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7DDDF4212520B000CBCC61 /* CustomQRCodeDemoViewController.m */; };
 		FC7DDDF92125222000CBCC61 /* NPQRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7DDDF82125222000CBCC61 /* NPQRCodeManager.m */; };
 		FC893271211BDF5300647657 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC893270211BDF5200647657 /* AppDelegate.m */; };
@@ -54,6 +65,8 @@
 		FC8932F6211C434F00647657 /* NSArray+add.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932F5211C434F00647657 /* NSArray+add.m */; };
 		FC8932F9211C479100647657 /* TouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932F8211C479100647657 /* TouchID.m */; };
 		FC8932FC211C47D900647657 /* UIView+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932FB211C47D900647657 /* UIView+Activity.m */; };
+		FC996BFD21411F1B00FAF23D /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = FC996BFA21411F1B00FAF23D /* zocr0.lib */; };
+		FC996BFE21411F1B00FAF23D /* libexidcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC996BFC21411F1B00FAF23D /* libexidcardios.a */; };
 		FCDDEB6B212FEC5E00EDD1AE /* XHCarInWayDataHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDDEB6A212FEC5E00EDD1AE /* XHCarInWayDataHeaderView.m */; };
 		FCF9903D212277EE007CDEA5 /* MBProgressHUD+XHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9903C212277EE007CDEA5 /* MBProgressHUD+XHAdd.m */; };
 		FCF9904F2122A688007CDEA5 /* XHCarInwayDataDailyInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF990482122A688007CDEA5 /* XHCarInwayDataDailyInfoModel.m */; };
@@ -97,6 +110,10 @@
 		46C97B3AB8747B4ACCFA45A8 /* Pods-XH_MultiFunction_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XH_MultiFunction_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XH_MultiFunction_Demo/Pods-XH_MultiFunction_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		5CC44D7C6B7BC251C405AB48 /* Pods-XH_MultiFunction_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XH_MultiFunction_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XH_MultiFunction_Demo/Pods-XH_MultiFunction_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		BE27AE2BBFCA22ADE871297A /* libPods-XH_MultiFunction_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XH_MultiFunction_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC03AD6E213FBFEC00073827 /* UIImage+AD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AD.m"; sourceTree = "<group>"; };
+		FC03AD6F213FBFED00073827 /* UIImage+AD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AD.h"; sourceTree = "<group>"; };
+		FC03AD71213FC1A700073827 /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		FC03AD72213FC1A700073827 /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		FC1F5E0C212E4B35006468BD /* TestHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHomeViewController.h; sourceTree = "<group>"; };
 		FC1F5E0D212E4B35006468BD /* TestHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHomeViewController.m; sourceTree = "<group>"; };
 		FC384941211D240C0063F13F /* AppBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseTableViewCell.h; sourceTree = "<group>"; };
@@ -129,6 +146,22 @@
 		FC384971211D716D0063F13F /* HomeFunctionListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFunctionListVC.h; sourceTree = "<group>"; };
 		FC384972211D716D0063F13F /* HomeFunctionListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFunctionListVC.m; sourceTree = "<group>"; };
 		FC384974211D821E0063F13F /* LaunchGuideImage_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchGuideImage_0.png; sourceTree = "<group>"; };
+		FC3FA993213F839000FBB663 /* MGBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MGBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3FA994213F839000FBB663 /* MGIDCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MGIDCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3FA995213F839000FBB663 /* MGLivenessDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MGLivenessDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3FA996213FA18300FBB663 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FC755F1F213E78D700206667 /* OCRTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCRTestViewController.h; sourceTree = "<group>"; };
+		FC755F20213E78D700206667 /* OCRTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCRTestViewController.m; sourceTree = "<group>"; };
+		FC755F24213E7B9F00206667 /* BankCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCard.h; sourceTree = "<group>"; };
+		FC755F25213E7B9F00206667 /* exbankcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exbankcard.h; sourceTree = "<group>"; };
+		FC755F27213E7B9F00206667 /* exbankcardcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exbankcardcore.h; sourceTree = "<group>"; };
+		FC755F28213E7B9F00206667 /* libbankcard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbankcard.a; sourceTree = "<group>"; };
+		FC755F2A213E7B9F00206667 /* CardScaningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardScaningView.h; sourceTree = "<group>"; };
+		FC755F2B213E7B9F00206667 /* CardScaningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardScaningView.m; sourceTree = "<group>"; };
+		FC755F2C213E7B9F00206667 /* RectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectManager.h; sourceTree = "<group>"; };
+		FC755F2D213E7B9F00206667 /* RectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectManager.m; sourceTree = "<group>"; };
+		FC755F2E213E7B9F00206667 /* TBOCRVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBOCRVC.h; sourceTree = "<group>"; };
+		FC755F2F213E7B9F00206667 /* TBOCRVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBOCRVC.m; sourceTree = "<group>"; };
 		FC7DDDF3212520B000CBCC61 /* CustomQRCodeDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomQRCodeDemoViewController.h; sourceTree = "<group>"; };
 		FC7DDDF4212520B000CBCC61 /* CustomQRCodeDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomQRCodeDemoViewController.m; sourceTree = "<group>"; };
 		FC7DDDF72125222000CBCC61 /* NPQRCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPQRCodeManager.h; sourceTree = "<group>"; };
@@ -190,6 +223,10 @@
 		FC8932F8211C479100647657 /* TouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchID.m; sourceTree = "<group>"; };
 		FC8932FA211C47D900647657 /* UIView+Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Activity.h"; sourceTree = "<group>"; };
 		FC8932FB211C47D900647657 /* UIView+Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Activity.m"; sourceTree = "<group>"; };
+		FC996BF821411F1B00FAF23D /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		FC996BFA21411F1B00FAF23D /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		FC996BFB21411F1B00FAF23D /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		FC996BFC21411F1B00FAF23D /* libexidcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexidcardios.a; sourceTree = "<group>"; };
 		FCDDEB69212FEC5E00EDD1AE /* XHCarInWayDataHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCarInWayDataHeaderView.h; sourceTree = "<group>"; };
 		FCDDEB6A212FEC5E00EDD1AE /* XHCarInWayDataHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCarInWayDataHeaderView.m; sourceTree = "<group>"; };
 		FCF9903B212277EE007CDEA5 /* MBProgressHUD+XHAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XHAdd.h"; sourceTree = "<group>"; };
@@ -238,7 +275,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC996BFE21411F1B00FAF23D /* libexidcardios.a in Frameworks */,
+				FC3FA997213FA18300FBB663 /* libc++.tbd in Frameworks */,
+				FC3FA990213F839000FBB663 /* MGBaseKit.framework in Frameworks */,
+				FC3FA991213F839000FBB663 /* MGIDCard.framework in Frameworks */,
+				FC3FA992213F839000FBB663 /* MGLivenessDetection.framework in Frameworks */,
 				D872A26B8CB9FA0B67C5B99F /* libPods-XH_MultiFunction_Demo.a in Frameworks */,
+				FC083C442140B4E000615A32 /* libbankcard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +314,10 @@
 		AB71B679DD58B2CB0AA51747 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC3FA996213FA18300FBB663 /* libc++.tbd */,
+				FC3FA993213F839000FBB663 /* MGBaseKit.framework */,
+				FC3FA994213F839000FBB663 /* MGIDCard.framework */,
+				FC3FA995213F839000FBB663 /* MGLivenessDetection.framework */,
 				BE27AE2BBFCA22ADE871297A /* libPods-XH_MultiFunction_Demo.a */,
 			);
 			name = Frameworks;
@@ -299,6 +346,8 @@
 			children = (
 				FC1F5E0C212E4B35006468BD /* TestHomeViewController.h */,
 				FC1F5E0D212E4B35006468BD /* TestHomeViewController.m */,
+				FC755F1F213E78D700206667 /* OCRTestViewController.h */,
+				FC755F20213E78D700206667 /* OCRTestViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -313,6 +362,7 @@
 		FC1F5E0F212E4B35006468BD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FC755F22213E7B9F00206667 /* OCR */,
 				FCDDEB69212FEC5E00EDD1AE /* XHCarInWayDataHeaderView.h */,
 				FCDDEB6A212FEC5E00EDD1AE /* XHCarInWayDataHeaderView.m */,
 			);
@@ -421,6 +471,48 @@
 				FC38496B211D2D820063F13F /* README.md */,
 			);
 			path = "ThirdFramework（三方库）";
+			sourceTree = "<group>";
+		};
+		FC755F22213E7B9F00206667 /* OCR */ = {
+			isa = PBXGroup;
+			children = (
+				FC996BF721411F1B00FAF23D /* libexidcard */,
+				FC755F23213E7B9F00206667 /* bank_io */,
+				FC755F29213E7B9F00206667 /* View */,
+			);
+			path = OCR;
+			sourceTree = "<group>";
+		};
+		FC755F23213E7B9F00206667 /* bank_io */ = {
+			isa = PBXGroup;
+			children = (
+				FC755F24213E7B9F00206667 /* BankCard.h */,
+				FC755F25213E7B9F00206667 /* exbankcard.h */,
+				FC755F26213E7B9F00206667 /* exbankcardcore */,
+			);
+			path = bank_io;
+			sourceTree = "<group>";
+		};
+		FC755F26213E7B9F00206667 /* exbankcardcore */ = {
+			isa = PBXGroup;
+			children = (
+				FC755F27213E7B9F00206667 /* exbankcardcore.h */,
+				FC755F28213E7B9F00206667 /* libbankcard.a */,
+			);
+			path = exbankcardcore;
+			sourceTree = "<group>";
+		};
+		FC755F29213E7B9F00206667 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC755F2A213E7B9F00206667 /* CardScaningView.h */,
+				FC755F2B213E7B9F00206667 /* CardScaningView.m */,
+				FC755F2C213E7B9F00206667 /* RectManager.h */,
+				FC755F2D213E7B9F00206667 /* RectManager.m */,
+				FC755F2E213E7B9F00206667 /* TBOCRVC.h */,
+				FC755F2F213E7B9F00206667 /* TBOCRVC.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FC7DDDF12125203100CBCC61 /* 4.二维码（CustomQRCodeProduct） */ = {
@@ -639,6 +731,8 @@
 		FC8932D5211C0EAC00647657 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FC03AD6F213FBFED00073827 /* UIImage+AD.h */,
+				FC03AD6E213FBFEC00073827 /* UIImage+AD.m */,
 				FC38496F211D6FBA0063F13F /* UIScrollView+Offset.h */,
 				FC38496E211D6FB90063F13F /* UIScrollView+Offset.m */,
 				FC38495D211D25000063F13F /* NSObject+Extension.h */,
@@ -657,6 +751,8 @@
 				FC8932F5211C434F00647657 /* NSArray+add.m */,
 				FCF9903B212277EE007CDEA5 /* MBProgressHUD+XHAdd.h */,
 				FCF9903C212277EE007CDEA5 /* MBProgressHUD+XHAdd.m */,
+				FC03AD71213FC1A700073827 /* NSString+Extension.h */,
+				FC03AD72213FC1A700073827 /* NSString+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -719,6 +815,25 @@
 				FC8932EB211C410200647657 /* XHDrawer.m */,
 			);
 			path = XHView;
+			sourceTree = "<group>";
+		};
+		FC996BF721411F1B00FAF23D /* libexidcard */ = {
+			isa = PBXGroup;
+			children = (
+				FC996BF821411F1B00FAF23D /* commondef.h */,
+				FC996BF921411F1B00FAF23D /* dicts */,
+				FC996BFB21411F1B00FAF23D /* excards.h */,
+				FC996BFC21411F1B00FAF23D /* libexidcardios.a */,
+			);
+			path = libexidcard;
+			sourceTree = "<group>";
+		};
+		FC996BF921411F1B00FAF23D /* dicts */ = {
+			isa = PBXGroup;
+			children = (
+				FC996BFA21411F1B00FAF23D /* zocr0.lib */,
+			);
+			path = dicts;
 			sourceTree = "<group>";
 		};
 		FCF990442122A5C9007CDEA5 /* 0.自定义表格绘制（CustomDrawTable_Demo） */ = {
@@ -995,6 +1110,7 @@
 				FC8932B8211BE28F00647657 /* README.md in Resources */,
 				FC89327C211BDF5300647657 /* LaunchScreen.storyboard in Resources */,
 				FC893279211BDF5300647657 /* Assets.xcassets in Resources */,
+				FC996BFD21411F1B00FAF23D /* zocr0.lib in Resources */,
 				FC8932B7211BE28F00647657 /* README.md in Resources */,
 				FC384975211D821F0063F13F /* LaunchGuideImage_0.png in Resources */,
 				FC893277211BDF5300647657 /* Main.storyboard in Resources */,
@@ -1077,6 +1193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC03AD70213FBFED00073827 /* UIImage+AD.m in Sources */,
 				FCF990832122DD60007CDEA5 /* LogsInfoModel.m in Sources */,
 				FC384965211D25000063F13F /* UIGestureRecognizer+BlocksKit.m in Sources */,
 				FC7DDDF5212520B000CBCC61 /* CustomQRCodeDemoViewController.m in Sources */,
@@ -1086,6 +1203,7 @@
 				FCF990892122DD60007CDEA5 /* LogsExampleTableViewController.m in Sources */,
 				FC384955211D240C0063F13F /* AppBaseViewController.m in Sources */,
 				FCF990882122DD60007CDEA5 /* XHLogsManager.m in Sources */,
+				FC755F35213E7B9F00206667 /* TBOCRVC.m in Sources */,
 				FCF990852122DD60007CDEA5 /* MyFileLoggerManagerDefault.m in Sources */,
 				FCF990812122DD60007CDEA5 /* AppInfoManager.m in Sources */,
 				FC1F5E10212E4B35006468BD /* TestHomeViewController.m in Sources */,
@@ -1096,6 +1214,7 @@
 				FC8932F9211C479100647657 /* TouchID.m in Sources */,
 				FC384958211D240C0063F13F /* UITableView+Custom.m in Sources */,
 				FC8932D8211C0EC800647657 /* UIColor+additions.m in Sources */,
+				FC755F21213E78D700206667 /* OCRTestViewController.m in Sources */,
 				FC8932DB211C15C600647657 /* ZWIntroductionViewController.m in Sources */,
 				FC384970211D6FBA0063F13F /* UIScrollView+Offset.m in Sources */,
 				FC893274211BDF5300647657 /* ViewController.m in Sources */,
@@ -1108,14 +1227,17 @@
 				FCF990872122DD60007CDEA5 /* MyLogFromatter.m in Sources */,
 				FC8932CD211C0C9200647657 /* AppManager.m in Sources */,
 				FC384964211D25000063F13F /* NSObject+Extension.m in Sources */,
+				FC03AD73213FC1A700073827 /* NSString+Extension.m in Sources */,
 				FCF990512122A688007CDEA5 /* CustomDrawExampleTableViewController.m in Sources */,
 				FC38495B211D24880063F13F /* AppBaseTableViewDataModel.m in Sources */,
+				FC755F33213E7B9F00206667 /* CardScaningView.m in Sources */,
 				FC8932ED211C410200647657 /* XHDrawer.m in Sources */,
 				FC8932D4211C0D2100647657 /* AppUserInfoModel.m in Sources */,
 				FC8932FC211C47D900647657 /* UIView+Activity.m in Sources */,
 				FC384953211D240C0063F13F /* AppBaseCustomSystemTableViewController.m in Sources */,
 				FC8932F0211C411900647657 /* XHShowTimePicker.m in Sources */,
 				FC893271211BDF5300647657 /* AppDelegate.m in Sources */,
+				FC755F34213E7B9F00206667 /* RectManager.m in Sources */,
 				FC38496C211D2D820063F13F /* Reachability.m in Sources */,
 				FC8932C7211C063C00647657 /* AppBaseTabBarController.m in Sources */,
 				FCF990602122B013007CDEA5 /* VolumeWaverView.m in Sources */,
@@ -1299,10 +1421,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EA72JG3VB5;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XH_MultiFunction_Demo/Project/Utils（通用类）/Prefix/PrefixHeader.pch";
 				INFOPLIST_FILE = XH_MultiFunction_Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XH_MultiFunction_Demo/Project/Classes（主项目类）/Test(测试)/Index/Views/OCR/bank_io/exbankcardcore",
+					"$(PROJECT_DIR)/XH_MultiFunction_Demo/Project/Classes（主项目类）/Test(测试)/Index/Views/OCR/libexidcard",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "MrYeL.XH-MultiFunction-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1316,10 +1445,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EA72JG3VB5;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XH_MultiFunction_Demo/Project/Utils（通用类）/Prefix/PrefixHeader.pch";
 				INFOPLIST_FILE = XH_MultiFunction_Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XH_MultiFunction_Demo/Project/Classes（主项目类）/Test(测试)/Index/Views/OCR/bank_io/exbankcardcore",
+					"$(PROJECT_DIR)/XH_MultiFunction_Demo/Project/Classes（主项目类）/Test(测试)/Index/Views/OCR/libexidcard",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "MrYeL.XH-MultiFunction-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

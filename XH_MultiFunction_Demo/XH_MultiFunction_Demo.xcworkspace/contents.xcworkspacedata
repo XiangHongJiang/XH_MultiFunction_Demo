@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:MGIDCard/MGIDCard.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ThirdPartProgram/MGLiveDetection/MGLivenessDetection.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ThirdPartProgram/MGBaseKit/MGBaseKit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:XH_MultiFunction_Demo.xcodeproj">
    </FileRef>
    <FileRef

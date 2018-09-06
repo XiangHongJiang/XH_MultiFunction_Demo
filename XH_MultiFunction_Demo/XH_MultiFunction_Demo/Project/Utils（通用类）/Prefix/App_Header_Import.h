@@ -24,6 +24,8 @@
 #import "UIView+Activity.h"
 #import "UINavigationController+RoutePush.h"
 #import "MBProgressHUD+XHAdd.h"
+#import "UIImage+AD.h"
+#import "NSString+Extension.h"
 
 //vc
 #import "LoginVC.h"
@@ -34,6 +36,14 @@
 #import "AppManager.h"
 #import "XHTools.h"
 #import "Logs_PchConfig.h"
+#import "CardScaningView.h"//OCR
+
+#import <MGIDCard/MGIDCard.h>
+#import <MGBaseKit/MGImage.h>//OCR
+#import <MGLivenessDetection/MGLivenessDetection.h>//OCR
+
+
+
 
 
 #endif /* App_Header_Import_h */
