@@ -7,9 +7,9 @@ pod 'YYKit'
 pod 'DZNEmptyDataSet'
 pod 'MJRefresh'
 pod 'MBProgressHUD'
+pod 'AFNetworking'
 
 #日志记录
 pod 'CocoaLumberjack'
-
 
 end
