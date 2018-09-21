@@ -23,6 +23,16 @@ DEPENDENCIES:
   - YYKit
   - ZZCircleProgress
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - DZNEmptyDataSet
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - YYKit
+    - ZZCircleProgress
+
 SPEC CHECKSUMS:
   CocoaLumberjack: 2e258a064cacc8eb9a2aca318e24d02a0a7fd56d
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
@@ -34,4 +44,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 567a7960c14d3d87b13114c6450452483f6c07ee
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

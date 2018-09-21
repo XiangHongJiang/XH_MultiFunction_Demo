@@ -39,6 +39,7 @@
 		F94D39D91ECBDE0B004FF5CD /* MGIDCardModel.model in Resources */ = {isa = PBXBuildFile; fileRef = F94D39D31ECBDE0B004FF5CD /* MGIDCardModel.model */; };
 		F9E2F5E21EA6409800A7CC73 /* MGBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E2F5E11EA6409800A7CC73 /* MGBaseKit.framework */; };
 		F9E2F6211EA72D4B00A7CC73 /* libidcard_quality.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E2F6201EA72D4B00A7CC73 /* libidcard_quality.a */; };
+		FC407A802154925200C1FFAC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC407A7F2154925200C1FFAC /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		F94D39D31ECBDE0B004FF5CD /* MGIDCardModel.model */ = {isa = PBXFileReference; lastKnownFileType = file; path = MGIDCardModel.model; sourceTree = "<group>"; };
 		F9E2F5E11EA6409800A7CC73 /* MGBaseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MGBaseKit.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/MGIDCardTest-bhnlvfyxpuovkyftiwnaandykpks/Build/Products/Debug-iphoneos/MGBaseKit.framework"; sourceTree = "<group>"; };
 		F9E2F6201EA72D4B00A7CC73 /* libidcard_quality.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidcard_quality.a; sourceTree = "<group>"; };
+		FC407A7F2154925200C1FFAC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC407A802154925200C1FFAC /* libc++.tbd in Frameworks */,
 				F9E2F6211EA72D4B00A7CC73 /* libidcard_quality.a in Frameworks */,
 				F9E2F5E21EA6409800A7CC73 /* MGBaseKit.framework in Frameworks */,
 			);
@@ -199,6 +202,7 @@
 		146E13111C28FF860066616F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC407A7F2154925200C1FFAC /* libc++.tbd */,
 				F9E2F5E11EA6409800A7CC73 /* MGBaseKit.framework */,
 			);
 			name = Frameworks;

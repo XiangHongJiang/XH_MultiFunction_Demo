@@ -38,9 +38,9 @@
 #import "Logs_PchConfig.h"
 #import "CardScaningView.h"//OCR
 
-#import <MGIDCard/MGIDCard.h>
-#import <MGBaseKit/MGImage.h>//OCR
-#import <MGLivenessDetection/MGLivenessDetection.h>//OCR
+//#import <MGIDCard/MGIDCard.h>
+//#import <MGBaseKit/MGImage.h>//OCR
+//#import <MGLivenessDetection/MGLivenessDetection.h>//OCR
 
 
 
