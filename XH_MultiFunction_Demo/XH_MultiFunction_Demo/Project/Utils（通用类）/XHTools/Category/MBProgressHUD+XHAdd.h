@@ -9,8 +9,8 @@
 #import <MBProgressHUD/MBProgressHUD.h>
 
 #define DefaultDurationForHUD 0.5
-#define ShowMessage(message) [MBProgressHUD showMessag:message toView:nil duration:DefaultDurationForHUD]
-
+#define ShowMessage(message) [MBProgressHUD showMessag:message toView:nil duration:DefaultDurationForHUD];
+#define showErrorMessage(msg) [MBProgressHUD showError:msg toView:nil];
 
 
 @interface MBProgressHUD (XHAdd)

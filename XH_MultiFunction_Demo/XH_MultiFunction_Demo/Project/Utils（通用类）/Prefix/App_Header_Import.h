@@ -16,6 +16,7 @@
 #import <YYKit.h>
 #import <MJRefresh.h>
 #import <Masonry.h>
+#import "AFNetworking.h"
 
 //categorys:分类
 #pragma mark - Categorys
@@ -24,7 +25,6 @@
 #import "UIView+Activity.h"
 #import "UINavigationController+RoutePush.h"
 #import "MBProgressHUD+XHAdd.h"
-
 //vc
 #import "LoginVC.h"
 #import "AppBaseTableViewController.h"

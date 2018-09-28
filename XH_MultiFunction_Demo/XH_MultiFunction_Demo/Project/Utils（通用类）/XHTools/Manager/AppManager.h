@@ -15,6 +15,8 @@ static  NSString *const AppVersionKey = @"appVersion";
 static  NSString *const userLoginInfoKey = @"userLoginInfo";
 static  NSString *const AppAdInfoKey = @"appAdInfoKey";
 
+#define GetUser_Id ([AppManager instance].userLoginInfo.USERID.length?[AppManager instance].userLoginInfo.USERID:@"")
+
 
 @interface AppManager : NSObject
 @property (nonatomic, strong) AppUserInfoModel *userLoginInfo;//用户登录信息

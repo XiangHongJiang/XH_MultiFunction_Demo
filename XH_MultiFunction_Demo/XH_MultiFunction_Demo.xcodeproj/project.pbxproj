@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D872A26B8CB9FA0B67C5B99F /* libPods-XH_MultiFunction_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE27AE2BBFCA22ADE871297A /* libPods-XH_MultiFunction_Demo.a */; };
+		FC1C98B9215E231700FD46CB /* FSHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1C98B8215E231700FD46CB /* FSHttpTool.m */; };
 		FC384952211D240C0063F13F /* AppBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384942211D240C0063F13F /* AppBaseTableViewCell.m */; };
 		FC384953211D240C0063F13F /* AppBaseCustomSystemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384945211D240C0063F13F /* AppBaseCustomSystemTableViewController.m */; };
 		FC384954211D240C0063F13F /* AppBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384947211D240C0063F13F /* AppBaseTableViewController.m */; };
@@ -20,7 +21,6 @@
 		FC384966211D25000063F13F /* UINavigationController+RoutePush.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384961211D25000063F13F /* UINavigationController+RoutePush.m */; };
 		FC384967211D25000063F13F /* UISearchBar+JCSearchBarPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384963211D25000063F13F /* UISearchBar+JCSearchBarPlaceholder.m */; };
 		FC38496C211D2D820063F13F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FC38496A211D2D820063F13F /* Reachability.m */; };
-		FC38496D211D2D820063F13F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FC38496B211D2D820063F13F /* README.md */; };
 		FC384970211D6FBA0063F13F /* UIScrollView+Offset.m in Sources */ = {isa = PBXBuildFile; fileRef = FC38496E211D6FB90063F13F /* UIScrollView+Offset.m */; };
 		FC384973211D716D0063F13F /* HomeFunctionListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384972211D716D0063F13F /* HomeFunctionListVC.m */; };
 		FC384975211D821F0063F13F /* LaunchGuideImage_0.png in Resources */ = {isa = PBXBuildFile; fileRef = FC384974211D821E0063F13F /* LaunchGuideImage_0.png */; };
@@ -34,8 +34,6 @@
 		FC89327F211BDF5300647657 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89327E211BDF5300647657 /* main.m */; };
 		FC893289211BDF5300647657 /* XH_MultiFunction_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC893288211BDF5300647657 /* XH_MultiFunction_DemoTests.m */; };
 		FC893294211BDF5300647657 /* XH_MultiFunction_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC893293211BDF5300647657 /* XH_MultiFunction_DemoUITests.m */; };
-		FC8932B7211BE28F00647657 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FC8932AC211BE28F00647657 /* README.md */; };
-		FC8932B8211BE28F00647657 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FC8932B4211BE28F00647657 /* README.md */; };
 		FC8932C6211C063C00647657 /* AppBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932BD211C063C00647657 /* AppBaseNavigationController.m */; };
 		FC8932C7211C063C00647657 /* AppBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932BF211C063C00647657 /* AppBaseTabBarController.m */; };
 		FC8932CA211C063C00647657 /* AppMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8932C5211C063C00647657 /* AppMainViewController.m */; };
@@ -95,6 +93,8 @@
 		46C97B3AB8747B4ACCFA45A8 /* Pods-XH_MultiFunction_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XH_MultiFunction_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XH_MultiFunction_Demo/Pods-XH_MultiFunction_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		5CC44D7C6B7BC251C405AB48 /* Pods-XH_MultiFunction_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XH_MultiFunction_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XH_MultiFunction_Demo/Pods-XH_MultiFunction_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		BE27AE2BBFCA22ADE871297A /* libPods-XH_MultiFunction_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XH_MultiFunction_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1C98B7215E231700FD46CB /* FSHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSHttpTool.h; sourceTree = "<group>"; };
+		FC1C98B8215E231700FD46CB /* FSHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSHttpTool.m; sourceTree = "<group>"; };
 		FC384941211D240C0063F13F /* AppBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseTableViewCell.h; sourceTree = "<group>"; };
 		FC384942211D240C0063F13F /* AppBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBaseTableViewCell.m; sourceTree = "<group>"; };
 		FC384944211D240C0063F13F /* AppBaseCustomSystemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseCustomSystemTableViewController.h; sourceTree = "<group>"; };
@@ -119,7 +119,6 @@
 		FC384963211D25000063F13F /* UISearchBar+JCSearchBarPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+JCSearchBarPlaceholder.m"; sourceTree = "<group>"; };
 		FC384969211D2D820063F13F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		FC38496A211D2D820063F13F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		FC38496B211D2D820063F13F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FC38496E211D6FB90063F13F /* UIScrollView+Offset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Offset.m"; sourceTree = "<group>"; };
 		FC38496F211D6FBA0063F13F /* UIScrollView+Offset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Offset.h"; sourceTree = "<group>"; };
 		FC384971211D716D0063F13F /* HomeFunctionListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFunctionListVC.h; sourceTree = "<group>"; };
@@ -145,13 +144,11 @@
 		FC89328F211BDF5300647657 /* XH_MultiFunction_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XH_MultiFunction_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC893293211BDF5300647657 /* XH_MultiFunction_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XH_MultiFunction_DemoUITests.m; sourceTree = "<group>"; };
 		FC893295211BDF5300647657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC8932AC211BE28F00647657 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FC8932AF211BE28F00647657 /* App_Header_Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_Header_Define.h; sourceTree = "<group>"; };
 		FC8932B0211BE28F00647657 /* App_Header_Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_Header_Enum.h; sourceTree = "<group>"; };
 		FC8932B1211BE28F00647657 /* App_Header_Import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_Header_Import.h; sourceTree = "<group>"; };
 		FC8932B2211BE28F00647657 /* App_Header_KeyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_Header_KeyMap.h; sourceTree = "<group>"; };
 		FC8932B3211BE28F00647657 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		FC8932B4211BE28F00647657 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FC8932BC211C063C00647657 /* AppBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseNavigationController.h; sourceTree = "<group>"; };
 		FC8932BD211C063C00647657 /* AppBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppBaseNavigationController.m; sourceTree = "<group>"; };
 		FC8932BE211C063C00647657 /* AppBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppBaseTabBarController.h; sourceTree = "<group>"; };
@@ -270,6 +267,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FC1C98B6215E230A00FD46CB /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				FC1C98B7215E231700FD46CB /* FSHttpTool.h */,
+				FC1C98B8215E231700FD46CB /* FSHttpTool.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
 		FC38493A211D23240063F13F /* Index */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,7 +375,6 @@
 			children = (
 				FC384969211D2D820063F13F /* Reachability.h */,
 				FC38496A211D2D820063F13F /* Reachability.m */,
-				FC38496B211D2D820063F13F /* README.md */,
 			);
 			path = "ThirdFramework（三方库）";
 			sourceTree = "<group>";
@@ -503,7 +508,6 @@
 			isa = PBXGroup;
 			children = (
 				FC384974211D821E0063F13F /* LaunchGuideImage_0.png */,
-				FC8932AC211BE28F00647657 /* README.md */,
 			);
 			path = "Resources（资源文件）";
 			sourceTree = "<group>";
@@ -511,7 +515,7 @@
 		FC8932AD211BE28F00647657 /* Utils（通用类） */ = {
 			isa = PBXGroup;
 			children = (
-				FC8932B4211BE28F00647657 /* README.md */,
+				FC1C98B6215E230A00FD46CB /* NetWork */,
 				FC8932AE211BE28F00647657 /* Prefix */,
 				FC8932B5211BE28F00647657 /* XHTools */,
 			);
@@ -843,7 +847,6 @@
 				FC893268211BDF5200647657 /* Sources */,
 				FC893269211BDF5200647657 /* Frameworks */,
 				FC89326A211BDF5200647657 /* Resources */,
-				93A4E967E78F18AF66369C27 /* [CP] Embed Pods Frameworks */,
 				FA99BC22EA19E922DB17F4F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -941,11 +944,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC38496D211D2D820063F13F /* README.md in Resources */,
-				FC8932B8211BE28F00647657 /* README.md in Resources */,
 				FC89327C211BDF5300647657 /* LaunchScreen.storyboard in Resources */,
 				FC893279211BDF5300647657 /* Assets.xcassets in Resources */,
-				FC8932B7211BE28F00647657 /* README.md in Resources */,
 				FC384975211D821F0063F13F /* LaunchGuideImage_0.png in Resources */,
 				FC893277211BDF5300647657 /* Main.storyboard in Resources */,
 			);
@@ -968,21 +968,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		93A4E967E78F18AF66369C27 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XH_MultiFunction_Demo/Pods-XH_MultiFunction_Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9D2874A9D9143AF30A9105B9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1012,7 +997,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1072,6 +1057,7 @@
 				FCF9905E2122B013007CDEA5 /* RecordManager.m in Sources */,
 				FCF990612122B013007CDEA5 /* WaverExampleTableViewController.m in Sources */,
 				FC384966211D25000063F13F /* UINavigationController+RoutePush.m in Sources */,
+				FC1C98B9215E231700FD46CB /* FSHttpTool.m in Sources */,
 				FCF9906B2122B78A007CDEA5 /* XHGuideTipManager.m in Sources */,
 				FC384952211D240C0063F13F /* AppBaseTableViewCell.m in Sources */,
 				FC8932E5211C2B7000647657 /* LoginVC.m in Sources */,
