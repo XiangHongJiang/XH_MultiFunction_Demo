@@ -16,6 +16,8 @@
 /** 网格*/
 @property (nonatomic, strong) GridsView * gridsView;
 
+
+
 @end
 
 @implementation VolumeWaverView

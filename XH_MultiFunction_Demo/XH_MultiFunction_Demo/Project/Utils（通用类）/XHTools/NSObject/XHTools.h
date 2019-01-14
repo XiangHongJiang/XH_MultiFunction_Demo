@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 
 #import "YHResetFrameButton.h"
-
 #import "XHShowTimePicker.h"
 #import "XHDrawer.h"
 
@@ -81,7 +80,6 @@
 //+ (NSDate *)chageStringToDate:(NSString *)dateStr withFormatStr:(NSString *)format;
 /** 字符串转时间*/
 + (NSString *)changeDateToString:(NSDate *)date withFormatStr:(NSString *)format;
-
 /** 手机号判断*/
 + (BOOL)isMobileNumber:(NSString *)mobileNum;
 /** 是否可用密码*/
@@ -89,12 +87,10 @@
 /** 网址判断*/
 + (BOOL)isWebUrl:(NSString *)content;
 /** 最大并发数执行Block*/
-+ (void)maxConcurrent_QueueWithMaxConcurrent_Count:(NSInteger)maxCount assignmentCount:(NSInteger)assigntnmetCount andAssignmentBlock:(void(^)())assignmentBlock;
++ (void)maxConcurrent_QueueWithMaxConcurrent_Count:(NSInteger)maxCount assignmentCount:(NSInteger)assigntnmetCount andAssignmentBlock:(void(^)(void))assignmentBlock;
 /** 获取月份天数*/
 + (NSInteger)getMounthCountWithYearStr:(NSString *)yearStr andMounth:(NSString *)mounthStr;
-
+//改圆角
 + (void)shapeRadiusWithView:(UIView *)view withTop:(BOOL)isTop;
-
-
 
 @end

@@ -158,7 +158,8 @@
      第二个参数:开始时间
      第三个参数:结束时间
      第三个参数:其他参数(0)
-     */     unsigned int unit = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
+     */
+    unsigned int unit = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
     NSDateComponents *dc = [calendar components:unit fromDate:pubDate toDate:[NSDate date] options:0];
     //日期字符串
     NSInteger dateCount = 0;
@@ -453,7 +454,7 @@
         
         NSString* substringForMatch = [string substringWithRange:match.range];
         
-        //        NSLog(@"匹配^ : %@",substringForMatch);
+        NSLog(@"匹配^ : %@",substringForMatch);
         
         return YES;
         
@@ -554,7 +555,7 @@
     return NO;
 }
 /** 最大并发数*/
-+ (void)maxConcurrent_QueueWithMaxConcurrent_Count:(NSInteger)maxCount assignmentCount:(NSInteger)assigntnmetCount andAssignmentBlock:(void(^)())assignmentBlock{
++ (void)maxConcurrent_QueueWithMaxConcurrent_Count:(NSInteger)maxCount assignmentCount:(NSInteger)assigntnmetCount andAssignmentBlock:(void(^)(void))assignmentBlock{
     dispatch_queue_t workConcurrentQueue = dispatch_queue_create("cccccccc", DISPATCH_QUEUE_CONCURRENT);
     
     dispatch_queue_t serialQueue = dispatch_queue_create("sssssssss",DISPATCH_QUEUE_SERIAL);
@@ -571,8 +572,6 @@
                 
                 
                 NSLog(@"thread-info:%@开始执行任务%d",[NSThread currentThread],(int)i);
-                
-                
                 //                sleep(1);
                 
                 if (assignmentBlock) {
@@ -626,11 +625,8 @@
     [myDateFormatter setDateFormat:@"yyyy-MM-dd"];
     NSString *beginString = [myDateFormatter stringFromDate:beginDate];
     NSString *endString = [myDateFormatter stringFromDate:endDate];
-    
     [NSString stringWithFormat:@"%@-%@",beginString,endString];
-    
 }
-
 
 
 @end
