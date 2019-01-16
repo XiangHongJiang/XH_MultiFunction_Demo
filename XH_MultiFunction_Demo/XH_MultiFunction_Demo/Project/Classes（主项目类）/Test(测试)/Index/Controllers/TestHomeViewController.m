@@ -35,6 +35,8 @@
         [self configSubViews];
     /** 2.请求数据 */
         [self transData];
+    
+
 }
 
 - (void)didReceiveMemoryWarning {

@@ -31,10 +31,8 @@
 //#define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
 #define iPhoneX                                                                \
-([UIScreen instancesRespondToSelector:@selector(currentMode)]                \
-? CGSizeEqualToSize(CGSizeMake(1125, 2436),                              \
-[[UIScreen mainScreen] currentMode].size)           \
-: NO)
+#define iPhoneX (([UIScreen mainScreen].bounds.size.height / [UIScreen mainScreen].bounds.size.width) > 1.78 ? YES : NO)
+
 
 // 状态栏高度
 #define STATUS_BAR_HEIGHT (iPhoneX ? 44.f : 20.f)
