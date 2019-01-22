@@ -84,7 +84,7 @@
         if (isLogin) {
             [weakSelf setLoginIsRoot];//去登录
         }else {
-            [weakSelf settabbarIsRoot];//去主界面// 记录是否需要加载
+            [weakSelf setTabBarIsRoot];//去主界面// 记录是否需要加载
         }
     };
     self.window.rootViewController = adVc;
@@ -105,7 +105,7 @@
     
 }
 /** 设置main为root*/
-- (void)settabbarIsRoot {
+- (void)setTabBarIsRoot {
     
     Class mainClass = NSClassFromString(@"AppMainViewController");
     self.window.rootViewController = [[mainClass alloc] init];
