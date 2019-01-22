@@ -68,4 +68,8 @@
 #define APP_Version [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
 #define APP_Channel @"AppStore"
 
+//系统globalQueue
+#define JGlobalQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+
+
 #endif /* App_Header_Define_h */

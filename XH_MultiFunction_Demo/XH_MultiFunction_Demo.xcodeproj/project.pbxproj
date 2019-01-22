@@ -24,6 +24,15 @@
 		FC384970211D6FBA0063F13F /* UIScrollView+Offset.m in Sources */ = {isa = PBXBuildFile; fileRef = FC38496E211D6FB90063F13F /* UIScrollView+Offset.m */; };
 		FC384973211D716D0063F13F /* HomeFunctionListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC384972211D716D0063F13F /* HomeFunctionListVC.m */; };
 		FC384975211D821F0063F13F /* LaunchGuideImage_0.png in Resources */ = {isa = PBXBuildFile; fileRef = FC384974211D821E0063F13F /* LaunchGuideImage_0.png */; };
+		FC3C01D521F700C600671D85 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3C01D421F700C600671D85 /* libc++.tbd */; };
+		FC3C01D721F700CE00671D85 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3C01D621F700CE00671D85 /* SystemConfiguration.framework */; };
+		FC3C01D921F700D800671D85 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3C01D821F700D800671D85 /* AddressBook.framework */; };
+		FC3C01DB21F700E100671D85 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3C01DA21F700E100671D85 /* AudioToolbox.framework */; };
+		FC3C01DD21F700EF00671D85 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3C01DC21F700EF00671D85 /* AVFoundation.framework */; };
+		FC3C01DF21F700F700671D85 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3C01DE21F700F700671D85 /* libz.tbd */; };
+		FC3C01E221F701B100671D85 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3C01E121F701B000671D85 /* iflyMSC.framework */; };
+		FC3C01E821F702CE00671D85 /* VoiceRecognizeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3C01E721F702CE00671D85 /* VoiceRecognizeVC.m */; };
+		FC3C01EB21F702F000671D85 /* VoiceRecognizerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3C01EA21F702F000671D85 /* VoiceRecognizerManager.m */; };
 		FC7DDDF5212520B000CBCC61 /* CustomQRCodeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7DDDF4212520B000CBCC61 /* CustomQRCodeDemoViewController.m */; };
 		FC7DDDF92125222000CBCC61 /* NPQRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7DDDF82125222000CBCC61 /* NPQRCodeManager.m */; };
 		FC893271211BDF5300647657 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC893270211BDF5200647657 /* AppDelegate.m */; };
@@ -124,6 +133,17 @@
 		FC384971211D716D0063F13F /* HomeFunctionListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFunctionListVC.h; sourceTree = "<group>"; };
 		FC384972211D716D0063F13F /* HomeFunctionListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFunctionListVC.m; sourceTree = "<group>"; };
 		FC384974211D821E0063F13F /* LaunchGuideImage_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchGuideImage_0.png; sourceTree = "<group>"; };
+		FC3C01D421F700C600671D85 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FC3C01D621F700CE00671D85 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FC3C01D821F700D800671D85 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		FC3C01DA21F700E100671D85 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FC3C01DC21F700EF00671D85 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FC3C01DE21F700F700671D85 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FC3C01E121F701B000671D85 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		FC3C01E621F702CE00671D85 /* VoiceRecognizeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceRecognizeVC.h; sourceTree = "<group>"; };
+		FC3C01E721F702CE00671D85 /* VoiceRecognizeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceRecognizeVC.m; sourceTree = "<group>"; };
+		FC3C01E921F702F000671D85 /* VoiceRecognizerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRecognizerManager.h; sourceTree = "<group>"; };
+		FC3C01EA21F702F000671D85 /* VoiceRecognizerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRecognizerManager.m; sourceTree = "<group>"; };
 		FC7DDDF3212520B000CBCC61 /* CustomQRCodeDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomQRCodeDemoViewController.h; sourceTree = "<group>"; };
 		FC7DDDF4212520B000CBCC61 /* CustomQRCodeDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomQRCodeDemoViewController.m; sourceTree = "<group>"; };
 		FC7DDDF72125222000CBCC61 /* NPQRCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPQRCodeManager.h; sourceTree = "<group>"; };
@@ -229,6 +249,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3C01DF21F700F700671D85 /* libz.tbd in Frameworks */,
+				FC3C01DD21F700EF00671D85 /* AVFoundation.framework in Frameworks */,
+				FC3C01DB21F700E100671D85 /* AudioToolbox.framework in Frameworks */,
+				FC3C01D921F700D800671D85 /* AddressBook.framework in Frameworks */,
+				FC3C01E221F701B100671D85 /* iflyMSC.framework in Frameworks */,
+				FC3C01D721F700CE00671D85 /* SystemConfiguration.framework in Frameworks */,
+				FC3C01D521F700C600671D85 /* libc++.tbd in Frameworks */,
 				D872A26B8CB9FA0B67C5B99F /* libPods-XH_MultiFunction_Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +289,12 @@
 		AB71B679DD58B2CB0AA51747 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC3C01DE21F700F700671D85 /* libz.tbd */,
+				FC3C01DC21F700EF00671D85 /* AVFoundation.framework */,
+				FC3C01DA21F700E100671D85 /* AudioToolbox.framework */,
+				FC3C01D821F700D800671D85 /* AddressBook.framework */,
+				FC3C01D621F700CE00671D85 /* SystemConfiguration.framework */,
+				FC3C01D421F700C600671D85 /* libc++.tbd */,
 				BE27AE2BBFCA22ADE871297A /* libPods-XH_MultiFunction_Demo.a */,
 			);
 			name = Frameworks;
@@ -373,10 +406,46 @@
 		FC384968211D2D820063F13F /* ThirdFramework（三方库） */ = {
 			isa = PBXGroup;
 			children = (
+				FC3C01E021F701B000671D85 /* Xunfei */,
 				FC384969211D2D820063F13F /* Reachability.h */,
 				FC38496A211D2D820063F13F /* Reachability.m */,
 			);
 			path = "ThirdFramework（三方库）";
+			sourceTree = "<group>";
+		};
+		FC3C01E021F701B000671D85 /* Xunfei */ = {
+			isa = PBXGroup;
+			children = (
+				FC3C01E121F701B000671D85 /* iflyMSC.framework */,
+			);
+			path = Xunfei;
+			sourceTree = "<group>";
+		};
+		FC3C01E321F7026200671D85 /* 7.讯飞语音识别（VoiceRecognize_Demo） */ = {
+			isa = PBXGroup;
+			children = (
+				FC3C01E521F7029800671D85 /* Models */,
+				FC3C01E421F7028B00671D85 /* Controller */,
+			);
+			path = "7.讯飞语音识别（VoiceRecognize_Demo）";
+			sourceTree = "<group>";
+		};
+		FC3C01E421F7028B00671D85 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC3C01E621F702CE00671D85 /* VoiceRecognizeVC.h */,
+				FC3C01E721F702CE00671D85 /* VoiceRecognizeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FC3C01E521F7029800671D85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC3C01E921F702F000671D85 /* VoiceRecognizerManager.h */,
+				FC3C01EA21F702F000671D85 /* VoiceRecognizerManager.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		FC7DDDF12125203100CBCC61 /* 4.二维码（CustomQRCodeProduct） */ = {
@@ -494,6 +563,7 @@
 		FC8932A6211BE28F00647657 /* Home（首页） */ = {
 			isa = PBXGroup;
 			children = (
+				FC3C01E321F7026200671D85 /* 7.讯飞语音识别（VoiceRecognize_Demo） */,
 				FC7DDDF12125203100CBCC61 /* 4.二维码（CustomQRCodeProduct） */,
 				FCF9906C2122DA7D007CDEA5 /* 3.日志记录（Logs_CocoaLumberjack_Demo） */,
 				FCF990622122B664007CDEA5 /* 2.操作引导（ControllerGuideTip_Demo） */,
@@ -1016,12 +1086,14 @@
 				FC7DDDF5212520B000CBCC61 /* CustomQRCodeDemoViewController.m in Sources */,
 				FCF990822122DD60007CDEA5 /* KeyChain.m in Sources */,
 				FC8932C6211C063C00647657 /* AppBaseNavigationController.m in Sources */,
+				FC3C01E821F702CE00671D85 /* VoiceRecognizeVC.m in Sources */,
 				FCF9905F2122B013007CDEA5 /* GridsView.m in Sources */,
 				FCF990892122DD60007CDEA5 /* LogsExampleTableViewController.m in Sources */,
 				FC384955211D240C0063F13F /* AppBaseViewController.m in Sources */,
 				FCF990882122DD60007CDEA5 /* XHLogsManager.m in Sources */,
 				FCF990852122DD60007CDEA5 /* MyFileLoggerManagerDefault.m in Sources */,
 				FCF990812122DD60007CDEA5 /* AppInfoManager.m in Sources */,
+				FC3C01EB21F702F000671D85 /* VoiceRecognizerManager.m in Sources */,
 				FCF990862122DD60007CDEA5 /* MyLog.m in Sources */,
 				FC8932F6211C434F00647657 /* NSArray+add.m in Sources */,
 				FC8932DE211C170C00647657 /* XHAdViewController.m in Sources */,
@@ -1231,7 +1303,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EA72JG3VB5;
+				DEVELOPMENT_TEAM = FJMVR73497;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XH_MultiFunction_Demo/Project/ThirdFramework（三方库）/Xunfei",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XH_MultiFunction_Demo/Project/Utils（通用类）/Prefix/PrefixHeader.pch";
 				INFOPLIST_FILE = XH_MultiFunction_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1248,7 +1325,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EA72JG3VB5;
+				DEVELOPMENT_TEAM = FJMVR73497;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XH_MultiFunction_Demo/Project/ThirdFramework（三方库）/Xunfei",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XH_MultiFunction_Demo/Project/Utils（通用类）/Prefix/PrefixHeader.pch";
 				INFOPLIST_FILE = XH_MultiFunction_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

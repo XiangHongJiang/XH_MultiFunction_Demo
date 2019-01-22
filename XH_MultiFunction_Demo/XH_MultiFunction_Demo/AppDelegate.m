@@ -12,6 +12,8 @@
 #import "XHAdViewController.h"
 #import "LoginVC.h"
 
+#import "iflyMSC/IFlyMSC.h"
+
 @interface AppDelegate ()
 
 @end
@@ -33,6 +35,10 @@
     [self configWindow];
     
     //例如1.配置三方
+    dispatch_async(JGlobalQueue, ^{//防止启动阻塞线程
+        //1.语音识别设置
+        [self speechRecognizeServiceInit];
+    });
     
     //例如2.其他操作
     
@@ -91,10 +97,11 @@
     LoginVC *loginVc = [[LoginVC alloc] init];
     loginVc.loginSucceedBlock = ^{
         
-        [weakSelf launchWindow];
+        [weakSelf setTabBarIsRoot];//去主界面// 记录是否需要加载
     };
-    self.window.rootViewController = loginVc;
-
+    
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:loginVc];
+    self.window.rootViewController = navi;
     
 }
 /** 设置main为root*/
@@ -121,6 +128,22 @@
     };
     
     return introductionVC;
+}
+#pragma mark - 语音识别初始化
+- (void)speechRecognizeServiceInit{
+    
+    //设置sdk的log等级，log保存在下面设置的工作路径中
+    [IFlySetting setLogFile:LVL_NONE];
+    
+    //打开输出在console的log开关
+    [IFlySetting showLogcat:NO];
+    
+    //创建语音配置,appid必须要传入，仅执行一次则可
+    NSString *initString = [[NSString alloc] initWithFormat:@"appid=%@",AppId_Voice];
+    
+    //所有服务启动前，需要确保执行createUtility
+    [IFlySpeechUtility createUtility:initString];
+    
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
